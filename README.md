@@ -70,11 +70,12 @@ python generate_evolved_map_matrix.py     # Figure S4 (evolved variants)
 If you use this code or data, please cite:
 
 ```bibtex
-@article{lou2026sega,
+@article{anonymous2026sega,
   title   = {Toward Self-Evolving Geospatial Algorithms: An LLM-Driven Framework with a Case Study on Spatial Regime Discovery},
-  author  = {Anonymous Authors (redacted for double-blind review)},
-  journal = {Annals of the American Association of Geographers},
-  year    = {2026}
+  author  = {Anonymous},
+  journal = {Anonymous Journal (under double-blind review)},
+  year    = {2026},
+  note    = {Author names, affiliations, and the target journal are redacted for double-blind review}
 }
 ```
 
