@@ -78,15 +78,7 @@ If you use this code or data, please cite:
 }
 ```
 
-This work builds on the GeoEvolve framework (also distributed as a Python package):
-
-```bibtex
-@article{luo2025geoevolve,
-  title  = {GeoEvolve: An LLM-Powered Multi-Agent System for Evolving Geospatial Algorithms with Embedded Geographic Knowledge},
-  author = {Luo, Peng and ...},
-  year   = {2025}
-}
-```
+This work builds on the **GeoEvolve** framework, also distributed as the open-source `geoevolve` Python package. The corresponding paper is cited in the manuscript's reference list (citation key `luo2025geoevolve`); the author block is omitted here to preserve double-blind anonymity.
 
 ---
 
