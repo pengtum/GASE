@@ -38,3 +38,8 @@ dist/
 # Avoid accidentally committing paper PDFs
 docs/
 _test
+
+# Helper scripts (contain local-only GitHub URL; do not push)
+_setup_and_push.sh
+_push_update.sh
+_squash_and_force_push.sh

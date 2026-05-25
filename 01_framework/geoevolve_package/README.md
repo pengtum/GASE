@@ -1,6 +1,6 @@
 # Module 1 — Two-Loop Architecture (via the `geoevolve` package)
 
-This module is **not redistributed here** — we adopt the open-source `geoevolve` Python package distributed alongside Luo et al. (2025), which already implements the complete two-loop architecture (Code Evolver, Code Analyzer, Knowledge Retriever / GeoKnowRAG, Geo-informed Prompt Generator).
+This module is **not redistributed here** — we adopt the open-source `geoevolve` Python package distributed alongside the original GeoEvolve paper (cited as `luo2025geoevolve` in the manuscript), which already implements the complete two-loop architecture (Code Evolver, Code Analyzer, Knowledge Retriever / GeoKnowRAG, Geo-informed Prompt Generator).
 
 ## Installation
 
@@ -24,6 +24,4 @@ The exact configuration used in this paper:
 
 ## Reference
 
-> Luo, P. et al. (2025). GeoEvolve: An LLM-Powered Multi-Agent System for Evolving Geospatial Algorithms with Embedded Geographic Knowledge.
-
-The PDF is included in `docs/geoevolve_paper_2025.pdf`.
+The full GeoEvolve citation appears in the main manuscript's bibliography under the key `luo2025geoevolve`; the author block is omitted here to preserve double-blind anonymity.
