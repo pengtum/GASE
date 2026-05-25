@@ -1,0 +1,63 @@
+2026-01-20 11:23:14,873 - openevolve.controller - INFO - Logging to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\logs\openevolve_20260120_112314.log
+2026-01-20 11:23:14,889 - openevolve.controller - INFO - Set random seed to 42 for reproducibility
+2026-01-20 11:23:14,920 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 11:23:14,951 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 11:23:14,951 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-01-20 11:23:14,967 - openevolve.database - INFO - Initialized program database with 0 programs
+2026-01-20 11:23:14,967 - openevolve.evaluator - INFO - Successfully loaded evaluation function from ./examples/georegime/evaluator.py
+2026-01-20 11:23:14,967 - openevolve.evaluator - INFO - Initialized evaluator with ./examples/georegime/evaluator.py
+2026-01-20 11:23:14,967 - openevolve.controller - INFO - Initialized OpenEvolve with ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_9/best/best_program.py
+2026-01-20 11:23:15,001 - openevolve.controller - INFO - Adding initial program to database
+2026-01-20 11:24:11,137 - openevolve.evaluator - INFO - Evaluated program 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829 in 56.13s: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=18.7030, combined_score=0.9651
+2026-01-20 11:24:11,140 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 5}
+2026-01-20 11:24:11,140 - openevolve.process_parallel - INFO - Initialized process parallel controller with 4 workers
+2026-01-20 11:24:11,140 - openevolve.process_parallel - INFO - Worker-to-island mapping: {0: 0, 1: 1, 2: 2, 3: 3}
+2026-01-20 11:24:11,155 - openevolve.process_parallel - INFO - Started process pool with 4 processes
+2026-01-20 11:24:11,155 - openevolve.controller - INFO - Using island-based evolution with 5 islands
+2026-01-20 11:24:11,155 - openevolve.database - INFO - Island Status:
+2026-01-20 11:24:11,155 - openevolve.database - INFO -  * Island 0: 1 programs, best=0.9651, avg=0.9651, diversity=0.00, gen=0 (best: 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829)
+2026-01-20 11:24:11,155 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:24:11,171 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:24:11,171 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:24:11,171 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:24:11,171 - openevolve.process_parallel - INFO - Starting process-based evolution from iteration 1 for 10 iterations (total: 11)
+2026-01-20 11:24:11,858 - openevolve.process_parallel - INFO - Early stopping disabled
+2026-01-20 11:24:59,452 - openevolve.process_parallel - WARNING - Iteration 4 error: Generated code exceeds maximum length (25144 > 25000)
+2026-01-20 11:25:09,567 - openevolve.process_parallel - WARNING - Iteration 2 error: Generated code exceeds maximum length (25029 > 25000)
+2026-01-20 11:25:13,734 - openevolve.process_parallel - WARNING - Iteration 3 error: Generated code exceeds maximum length (26276 > 25000)
+2026-01-20 11:25:17,749 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 9}
+2026-01-20 11:25:17,751 - openevolve.process_parallel - INFO - Iteration 1: Program 816e6657-11ab-4359-a316-a3d381364a4c (parent: 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829) completed in 59.38s
+2026-01-20 11:25:17,754 - openevolve.process_parallel - INFO - Metrics: ssr=222.5469, randi=0.9080, nmi=0.7417, mae=0.3342, used_time=6.2971, combined_score=0.9080
+2026-01-20 11:25:43,498 - openevolve.process_parallel - INFO - Iteration 8: Program a9164a69-3ead-4e67-8530-b16d8c1d3f2a (parent: 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829) completed in 25.76s
+2026-01-20 11:25:43,500 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error=boolean index did not match indexed array along dimension 0; dimension is 625 but corresponding boolean dimension is 15
+2026-01-20 11:26:24,248 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 9}
+2026-01-20 11:26:24,248 - openevolve.process_parallel - INFO - Iteration 9: Program 1f146946-d114-4015-9f09-1d2e3b0b09ee (parent: 816e6657-11ab-4359-a316-a3d381364a4c) completed in 40.73s
+2026-01-20 11:26:24,248 - openevolve.process_parallel - INFO - Metrics: ssr=157.7947, randi=0.9367, nmi=0.8025, mae=0.2200, used_time=9.6878, combined_score=0.9367
+2026-01-20 11:26:45,452 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 8}
+2026-01-20 11:26:45,499 - openevolve.process_parallel - INFO - Iteration 5: Program afbc6168-76b0-4ed7-bd0d-68647b3dd288 (parent: 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829) completed in 106.00s
+2026-01-20 11:26:45,499 - openevolve.process_parallel - INFO - Metrics: ssr=65.2231, randi=0.9671, nmi=0.8814, mae=0.1347, used_time=21.5832, combined_score=0.9671
+2026-01-20 11:26:49,342 - openevolve.database - INFO - MAP-Elites cell improved: {'score': 9, 'complexity': 9} (fitness: 0.937 -> 0.957)
+2026-01-20 11:26:49,345 - openevolve.process_parallel - INFO - Iteration 6: Program e0ed9448-0f81-4585-afc4-766f97c3504c (parent: f5ecbba0-8bc2-4ce5-80a8-d0706362d4b8) completed in 99.79s
+2026-01-20 11:26:49,347 - openevolve.process_parallel - INFO - Metrics: ssr=83.0147, randi=0.9571, nmi=0.8494, mae=0.1858, used_time=16.8131, combined_score=0.9571
+2026-01-20 11:27:15,108 - openevolve.process_parallel - INFO - Iteration 10: Program 453d5da5-6033-408f-b205-af8b144138b4 (parent: 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829) completed in 50.85s
+2026-01-20 11:27:15,108 - openevolve.process_parallel - INFO - Metrics: ssr=222.5469, randi=0.9080, nmi=0.7417, mae=0.3342, used_time=5.5265, combined_score=0.9080
+2026-01-20 11:27:15,108 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 10
+2026-01-20 11:27:15,108 - openevolve.database - INFO - Island Status:
+2026-01-20 11:27:15,123 - openevolve.database - INFO -  * Island 0: 6 programs, best=0.9671, avg=0.7808, diversity=430.47, gen=2 (best: afbc6168-76b0-4ed7-bd0d-68647b3dd288)
+2026-01-20 11:27:15,123 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 11:27:15,123 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 11:27:15,123 - openevolve.database - INFO -    Island 3: 2 programs, best=0.9651, avg=0.9611, diversity=902.50, gen=1 (best: e0ed9448-0f81-4585-afc4-766f97c3504c)
+2026-01-20 11:27:15,123 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 11:27:15,166 - openevolve.database - INFO - Saved database with 8 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\checkpoints\checkpoint_10
+2026-01-20 11:27:15,174 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=65.2231, randi=0.9671, nmi=0.8814, mae=0.1347, used_time=21.5832, combined_score=0.9671
+2026-01-20 11:27:15,176 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\checkpoints\checkpoint_10
+2026-01-20 11:27:50,046 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 7}
+2026-01-20 11:27:50,046 - openevolve.process_parallel - INFO - Iteration 7: Program e01f7838-9f0d-4f25-a5c5-1e65d7c26663 (parent: 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829) completed in 156.31s
+2026-01-20 11:27:50,046 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 11:27:50,155 - openevolve.database - INFO - Saved database with 9 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\checkpoints\checkpoint_10
+2026-01-20 11:27:50,155 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=65.2231, randi=0.9671, nmi=0.8814, mae=0.1347, used_time=21.5832, combined_score=0.9671
+2026-01-20 11:27:50,170 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\checkpoints\checkpoint_10
+2026-01-20 11:27:51,670 - openevolve.process_parallel - INFO - Stopped process pool
+2026-01-20 11:27:51,670 - openevolve.controller - INFO - Using tracked best program: afbc6168-76b0-4ed7-bd0d-68647b3dd288
+2026-01-20 11:27:51,670 - openevolve.controller - INFO - Evolution complete. Best program has metrics: ssr=65.2231, randi=0.9671, nmi=0.8814, mae=0.1347, used_time=21.5832, combined_score=0.9671
+2026-01-20 11:27:51,670 - openevolve.controller - INFO - Saved best program to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\best\best_program.py with program info to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\best\best_program_info.json

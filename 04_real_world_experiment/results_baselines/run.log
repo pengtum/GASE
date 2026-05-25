@@ -1,0 +1,315 @@
+Loaded GeoEvolve: <path>\real_world_study_v2\best_program_geoevolve.py
+Found 12 datasets
+
+=== US_Climate_ERA5_CLIMATE ===
+  shape X=(2000, 10), Y=(2000,), features=9
+  p=9
+  AZP: time=7.5s, k=9, SSR_red=0.532, AvgR2=0.838
+  RegionKModels: time=0.1s, k=9, SSR_red=0.478, AvgR2=0.817
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.8969681506032614e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.4205239473753777e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.8267682812810346e-19.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 4.2294592374505534e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.3706414659260285e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.957602838820357e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.2640729620043022e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.1640981350761976e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 7.51528704171157e-34.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 5.9992369634462734e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 4.32467472565993e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.674769754635527e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.9294472866168748e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.193558897439284e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 4.758461709937503e-19.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.8673858212539557e-33.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.472864439478415e-31.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.2109265432482797e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 2.606343498267409e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.4548035267547477e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 4.385167977204988e-19.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 9.654422258591059e-19.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.921083689736832e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 4.759460733760063e-19.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.6976131130192352e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 4.578785114704745e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.6100673413622591e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.7355879903730627e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.937751319167281e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.1716768351032497e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 5.341544647281023e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.6976131130192352e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 4.578785114704745e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 1.6100673413622591e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.937751319167281e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+<path>\AppData\Local\Programs\Python\Python312\Lib\site-packages\spglm\iwls.py:37: LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 5.341544647281023e-18.
+  xtx_inv_xt = linalg.solve(xtx, xT)
+  GWR+SKATER: time=64.2s, k=9, SSR_red=0.415, AvgR2=0.811
+  SKATER-reg: time=196.4s, k=9, SSR_red=0.631, AvgR2=0.818
+
+ 50%|==========          | 1001/2000 [00:11<00:10]       
+ 53%|===========         | 1066/2000 [00:12<00:10]       
+ 58%|============        | 1161/2000 [00:13<00:09]       
+ 63%|=============       | 1252/2000 [00:14<00:08]       
+ 67%|=============       | 1333/2000 [00:15<00:07]       
+ 71%|==============      | 1417/2000 [00:16<00:06]       
+ 76%|===============     | 1521/2000 [00:17<00:05]       
+ 81%|================    | 1622/2000 [00:18<00:04]       
+ 86%|=================   | 1727/2000 [00:19<00:03]       
+ 92%|==================  | 1833/2000 [00:20<00:01]       
+  SHAP-based: time=33.3s, k=9, SSR_red=0.684, AvgR2=0.765
+  GeoEvolve: time=69.5s, k=9, SSR_red=0.675, AvgR2=0.807
+
+=== US_Health_ARTHRITIS ===
+  shape X=(2000, 9), Y=(2000,), features=8
+  p=8
+  AZP: time=21.6s, k=8, SSR_red=0.491, AvgR2=0.832
+  RegionKModels: time=0.2s, k=8, SSR_red=0.393, AvgR2=0.801
+  GWR+SKATER: time=61.2s, k=8, SSR_red=0.431, AvgR2=0.821
+  SKATER-reg: time=131.7s, k=8, SSR_red=0.527, AvgR2=0.813
+ 96%|=================== | 1925/2000 [00:21<00:00]       
+ 46%|=========           | 916/2000 [00:11<00:13]       
+ 51%|==========          | 1012/2000 [00:12<00:11]       
+ 55%|===========         | 1108/2000 [00:13<00:10]       
+ 60%|============        | 1199/2000 [00:14<00:09]       
+ 65%|=============       | 1292/2000 [00:15<00:08]       
+ 69%|==============      | 1382/2000 [00:16<00:07]       
+ 74%|===============     | 1476/2000 [00:17<00:06]       
+ 79%|================    | 1573/2000 [00:18<00:04]       
+ 83%|=================   | 1668/2000 [00:19<00:03]       
+ 88%|==================  | 1763/2000 [00:20<00:02]       
+ 93%|=================== | 1860/2000 [00:21<00:01]       
+  SHAP-based: time=40.2s, k=8, SSR_red=0.566, AvgR2=0.812
+  GeoEvolve: time=88.6s, k=8, SSR_red=0.592, AvgR2=0.849
+
+=== US_Health_BPHIGH ===
+  shape X=(2000, 9), Y=(2000,), features=8
+  p=8
+  AZP: time=20.8s, k=8, SSR_red=0.564, AvgR2=0.860
+  RegionKModels: time=0.3s, k=8, SSR_red=0.480, AvgR2=0.832
+  GWR+SKATER: time=50.7s, k=8, SSR_red=0.432, AvgR2=0.763
+  SKATER-reg: time=127.9s, k=8, SSR_red=0.562, AvgR2=0.760
+ 98%|===================| 1954/2000 [00:22<00:00]       
+ 47%|=========           | 945/2000 [00:11<00:12]       
+ 52%|==========          | 1040/2000 [00:12<00:11]       
+ 57%|===========         | 1136/2000 [00:13<00:09]       
+ 62%|============        | 1230/2000 [00:14<00:08]       
+ 66%|=============       | 1325/2000 [00:15<00:07]       
+ 71%|==============      | 1420/2000 [00:16<00:06]       
+ 76%|===============     | 1515/2000 [00:17<00:05]       
+ 80%|================    | 1607/2000 [00:18<00:04]       
+ 85%|=================   | 1704/2000 [00:19<00:03]       
+ 90%|==================  | 1800/2000 [00:20<00:02]       
+ 95%|=================== | 1895/2000 [00:21<00:01]       
+  SHAP-based: time=35.3s, k=8, SSR_red=0.576, AvgR2=0.777
+  GeoEvolve: time=89.3s, k=8, SSR_red=0.606, AvgR2=0.806
+
+=== US_Health_CANCER ===
+  shape X=(2000, 9), Y=(2000,), features=8
+  p=8
+  AZP: time=22.8s, k=8, SSR_red=0.611, AvgR2=0.735
+  RegionKModels: time=0.1s, k=8, SSR_red=0.500, AvgR2=0.688
+  GWR+SKATER: time=31.0s, k=8, SSR_red=0.481, AvgR2=0.735
+  SKATER-reg: time=149.6s, k=8, SSR_red=0.612, AvgR2=0.762
+100%|===================| 1993/2000 [00:22<00:00]       
+ 35%|=======             | 701/2000 [00:11<00:20]       
+ 37%|=======             | 749/2000 [00:12<00:20]       
+ 40%|========            | 802/2000 [00:13<00:19]       
+ 43%|=========           | 860/2000 [00:14<00:18]       
+ 47%|=========           | 949/2000 [00:15<00:16]       
+ 52%|==========          | 1035/2000 [00:16<00:14]       
+ 57%|===========         | 1132/2000 [00:17<00:13]       
+ 61%|============        | 1225/2000 [00:18<00:11]       
+ 65%|=============       | 1304/2000 [00:19<00:10]       
+ 69%|==============      | 1374/2000 [00:20<00:09]       
+ 73%|===============     | 1464/2000 [00:21<00:07]       
+ 78%|================    | 1556/2000 [00:22<00:06]       
+ 83%|=================   | 1654/2000 [00:23<00:04]       
+ 87%|=================   | 1749/2000 [00:24<00:03]       
+ 92%|==================  | 1847/2000 [00:25<00:02]       
+  SHAP-based: time=36.8s, k=8, SSR_red=0.623, AvgR2=0.717
+  GeoEvolve: time=142.0s, k=8, SSR_red=0.650, AvgR2=0.706
+
+=== US_Health_CASTHMA ===
+  shape X=(2000, 9), Y=(2000,), features=8
+  p=8
+  AZP: time=22.0s, k=8, SSR_red=0.578, AvgR2=0.783
+  RegionKModels: time=0.8s, k=8, SSR_red=0.492, AvgR2=0.733
+  GWR+SKATER: time=62.9s, k=8, SSR_red=0.589, AvgR2=0.776
+  SKATER-reg: time=150.6s, k=8, SSR_red=0.676, AvgR2=0.795
+ 97%|=================== | 1943/2000 [00:26<00:00]       
+ 46%|=========           | 926/2000 [00:11<00:12]       
+ 51%|==========          | 1026/2000 [00:12<00:11]       
+ 56%|===========         | 1124/2000 [00:13<00:10]       
+ 61%|============        | 1220/2000 [00:14<00:08]       
+ 66%|=============       | 1321/2000 [00:15<00:07]       
+ 71%|==============      | 1419/2000 [00:16<00:06]       
+ 76%|===============     | 1516/2000 [00:17<00:05]       
+ 81%|================    | 1611/2000 [00:18<00:04]       
+ 85%|=================   | 1707/2000 [00:19<00:03]       
+ 90%|==================  | 1806/2000 [00:20<00:02]       
+ 95%|=================== | 1904/2000 [00:21<00:01]       
+  SHAP-based: time=34.3s, k=8, SSR_red=0.694, AvgR2=0.785
+  GeoEvolve: time=77.7s, k=8, SSR_red=0.694, AvgR2=0.816
+
+=== US_Health_DEPRESSION ===
+  shape X=(2000, 9), Y=(2000,), features=8
+  p=8
+  AZP: time=26.3s, k=8, SSR_red=0.720, AvgR2=0.767
+  RegionKModels: time=0.4s, k=8, SSR_red=0.567, AvgR2=0.672
+  GWR+SKATER: time=55.1s, k=8, SSR_red=0.601, AvgR2=0.701
+  SKATER-reg: time=133.4s, k=8, SSR_red=0.725, AvgR2=0.738
+100%|===================| 1999/2000 [00:22<00:00]       
+ 46%|=========           | 910/2000 [00:11<00:13]       
+ 50%|==========          | 1004/2000 [00:12<00:11]       
+ 55%|===========         | 1099/2000 [00:13<00:10]       
+ 60%|============        | 1190/2000 [00:14<00:09]       
+ 64%|=============       | 1284/2000 [00:15<00:08]       
+ 69%|==============      | 1382/2000 [00:16<00:07]       
+ 74%|===============     | 1479/2000 [00:17<00:05]       
+ 79%|================    | 1573/2000 [00:18<00:04]       
+ 84%|=================   | 1671/2000 [00:19<00:03]       
+ 88%|==================  | 1766/2000 [00:20<00:02]       
+ 93%|=================== | 1862/2000 [00:21<00:01]       
+  SHAP-based: time=32.7s, k=8, SSR_red=0.763, AvgR2=0.661
+  GeoEvolve: time=74.2s, k=8, SSR_red=0.769, AvgR2=0.666
+
+=== US_Health_DIABETES ===
+  shape X=(2000, 9), Y=(2000,), features=8
+  p=8
+  AZP: time=14.6s, k=8, SSR_red=0.635, AvgR2=0.944
+  RegionKModels: time=0.2s, k=8, SSR_red=0.556, AvgR2=0.930
+  GWR+SKATER: time=28.8s, k=8, SSR_red=0.518, AvgR2=0.923
+  SKATER-reg: time=129.3s, k=8, SSR_red=0.618, AvgR2=0.926
+ 98%|===================| 1962/2000 [00:22<00:00]       
+ 44%|=========           | 885/2000 [00:11<00:13]       
+ 49%|==========          | 977/2000 [00:12<00:12]       
+ 54%|===========         | 1071/2000 [00:13<00:11]       
+ 57%|===========         | 1146/2000 [00:14<00:10]       
+ 62%|============        | 1235/2000 [00:15<00:09]       
+ 66%|=============       | 1319/2000 [00:16<00:08]       
+ 70%|==============      | 1400/2000 [00:17<00:07]       
+ 73%|===============     | 1468/2000 [00:18<00:06]       
+ 77%|===============     | 1546/2000 [00:19<00:05]       
+ 82%|================    | 1632/2000 [00:20<00:04]       
+ 85%|=================   | 1697/2000 [00:21<00:03]       
+ 86%|=================   | 1729/2000 [00:22<00:03]       
+ 88%|==================  | 1758/2000 [00:23<00:03]       
+ 91%|==================  | 1818/2000 [00:24<00:02]       
+ 94%|=================== | 1885/2000 [00:25<00:01]       
+ 96%|=================== | 1924/2000 [00:26<00:01]       
+  SHAP-based: time=49.6s, k=8, SSR_red=0.609, AvgR2=0.928
+  GeoEvolve: time=93.7s, k=8, SSR_red=0.642, AvgR2=0.926
+
+=== US_Health_OBESITY ===
+  shape X=(2000, 9), Y=(2000,), features=8
+  p=8
+  AZP: time=37.7s, k=8, SSR_red=0.460, AvgR2=0.717
+  RegionKModels: time=0.8s, k=8, SSR_red=0.371, AvgR2=0.667
+  GWR+SKATER: time=52.1s, k=8, SSR_red=0.424, AvgR2=0.681
+  SKATER-reg: time=131.6s, k=8, SSR_red=0.488, AvgR2=0.687
+ 99%|===================| 1982/2000 [00:27<00:00]       
+ 49%|==========          | 983/2000 [00:11<00:11]       
+ 54%|===========         | 1084/2000 [00:12<00:10]       
+ 59%|============        | 1182/2000 [00:13<00:08]       
+ 64%|=============       | 1275/2000 [00:14<00:07]       
+ 69%|==============      | 1374/2000 [00:15<00:06]       
+ 74%|===============     | 1471/2000 [00:16<00:05]       
+ 78%|================    | 1570/2000 [00:17<00:04]       
+ 84%|=================   | 1670/2000 [00:18<00:03]       
+ 88%|==================  | 1767/2000 [00:19<00:02]       
+ 93%|=================== | 1868/2000 [00:20<00:01]       
+  SHAP-based: time=44.1s, k=8, SSR_red=0.478, AvgR2=0.704
+  GeoEvolve: time=91.2s, k=8, SSR_red=0.498, AvgR2=0.640
+
+=== US_Health_STROKE ===
+  shape X=(2000, 9), Y=(2000,), features=8
+  p=8
+  AZP: time=11.5s, k=8, SSR_red=0.689, AvgR2=0.921
+  RegionKModels: time=0.1s, k=8, SSR_red=0.618, AvgR2=0.903
+  GWR+SKATER: time=28.5s, k=8, SSR_red=0.616, AvgR2=0.912
+  SKATER-reg: time=131.0s, k=8, SSR_red=0.671, AvgR2=0.896
+ 98%|===================| 1964/2000 [00:21<00:00]       
+ 47%|=========           | 945/2000 [00:11<00:12]       
+ 52%|==========          | 1045/2000 [00:12<00:10]       
+ 57%|===========         | 1147/2000 [00:13<00:09]       
+ 62%|============        | 1246/2000 [00:14<00:08]       
+ 67%|=============       | 1345/2000 [00:15<00:07]       
+ 72%|==============      | 1448/2000 [00:16<00:06]       
+ 77%|===============     | 1534/2000 [00:17<00:05]       
+ 81%|================    | 1625/2000 [00:18<00:04]       
+ 86%|=================   | 1713/2000 [00:19<00:03]       
+ 90%|==================  | 1800/2000 [00:20<00:02]       
+ 95%|=================== | 1896/2000 [00:21<00:01]       
+  SHAP-based: time=48.5s, k=8, SSR_red=0.643, AvgR2=0.890
+  GeoEvolve: time=80.5s, k=8, SSR_red=0.680, AvgR2=0.922
+
+=== US_Hydro_CAMELS ===
+  shape X=(670, 11), Y=(670,), features=10
+  p=10
+  AZP: time=0.1s, k=10, SSR_red=0.554, AvgR2=0.896
+  RegionKModels: time=0.0s, k=10, SSR_red=0.517, AvgR2=0.867
+  GWR+SKATER: time=13.1s, k=12, SSR_red=0.318, AvgR2=0.866
+  SKATER-reg: time=56.0s, k=12, SSR_red=0.328, AvgR2=0.939
+  SHAP-based: time=5.8s, k=10, SSR_red=0.632, AvgR2=0.888
+  GeoEvolve: time=9.0s, k=10, SSR_red=0.765, AvgR2=0.952
+
+=== US_Politics_Voting ===
+  shape X=(2000, 15), Y=(2000,), features=14
+  p=8
+  AZP: time=34.0s, k=8, SSR_red=0.610, AvgR2=0.839
+  RegionKModels: time=0.1s, k=8, SSR_red=0.409, AvgR2=0.770
+  GWR+SKATER: time=33.3s, k=8, SSR_red=0.538, AvgR2=0.812
+  SKATER-reg: time=128.2s, k=8, SSR_red=0.559, AvgR2=0.796
+ 99%|===================| 1983/2000 [00:22<00:00]       
+ 45%|=========           | 905/2000 [00:11<00:13]       
+ 50%|==========          | 999/2000 [00:12<00:12]       
+ 54%|===========         | 1082/2000 [00:13<00:11]       
+ 58%|============        | 1166/2000 [00:14<00:10]       
+ 62%|============        | 1246/2000 [00:15<00:09]       
+ 66%|=============       | 1323/2000 [00:16<00:08]       
+ 70%|==============      | 1405/2000 [00:17<00:07]       
+ 74%|===============     | 1486/2000 [00:18<00:06]       
+ 79%|================    | 1573/2000 [00:19<00:05]       
+ 83%|=================   | 1663/2000 [00:20<00:04]       
+ 88%|==================  | 1752/2000 [00:21<00:02]       
+ 92%|==================  | 1839/2000 [00:22<00:01]       
+  SHAP-based: time=36.1s, k=8, SSR_red=0.666, AvgR2=0.827
+  GeoEvolve: time=157.4s, k=8, SSR_red=0.693, AvgR2=0.849
+
+Wrote <path>\real_world_study_v2\results_baselines/algorithm_comparison.csv with 66 rows
+ 96%|=================== | 1930/2000 [00:23<00:00]       

@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude/
+
+# Local environments
+.env
+.venv/
+venv/
+
+# Large intermediate
+*.zip
+*.tar.gz
+
+# Build artifacts (keep paper_figures since those are deliverables)
+build/
+dist/
+*.egg-info/
+
+# Avoid accidentally committing paper PDFs
+docs/
+_test

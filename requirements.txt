@@ -1,0 +1,27 @@
+# Core scientific stack
+numpy>=1.24
+scipy>=1.11
+pandas>=2.0
+scikit-learn>=1.3
+
+# Geospatial stack
+libpysal>=4.7
+spopt>=0.5
+mgwr>=2.1
+geopandas>=0.13
+shapely>=2.0
+pyproj>=3.6
+rtree>=1.0
+networkx>=3.0
+
+# IO / utilities
+openpyxl>=3.1            # .xlsx reading for Metadata, ModelTime
+tqdm>=4.65
+
+# Plotting (for 05_analysis_and_figures/)
+matplotlib>=3.7
+
+# SEGA Module 1 — LLM-driven inner-loop engine
+# Install from PyPI (recommended):
+#   pip install geoevolve
+# or from the upstream repository (see 01_framework/geoevolve_package/README.md).

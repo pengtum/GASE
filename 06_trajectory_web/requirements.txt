@@ -1,0 +1,2 @@
+# No runtime dependencies — the deployed server is just python -m http.server.
+# This empty file tells Railway/Nixpacks to provision a Python environment.

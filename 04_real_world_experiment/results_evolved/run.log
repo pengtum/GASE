@@ -1,0 +1,131 @@
+Found 12 datasets
+  loaded 2kmodels (initial)
+  loaded OpenEvolve_NoGeoKnow
+  loaded OpenEvolve_SimpleGeoKnow
+  loaded OpenEvolve_SpecificGeoKnow
+  loaded GeoEvolve_NoRAG
+  loaded GeoEvolve_StaticRAG
+  loaded GeoEvolve_DynamicRAG
+
+=== US_Climate_ERA5_CLIMATE ===
+  shape X=(2000, 10), features=9
+  p=9
+  2kmodels (initial): time=38.9s, k=9, SSR_red=0.680, AvgR2=0.833
+  OpenEvolve_NoGeoKnow: time=12.5s, k=9, SSR_red=0.656, AvgR2=0.831
+  OpenEvolve_SimpleGeoKnow: time=38.6s, k=21, SSR_red=0.671, AvgR2=0.824
+  OpenEvolve_SpecificGeoKnow: time=34.5s, k=9, SSR_red=0.675, AvgR2=0.809
+  GeoEvolve_NoRAG: time=40.9s, k=9, SSR_red=0.677, AvgR2=0.849
+  GeoEvolve_StaticRAG: time=67.7s, k=9, SSR_red=0.674, AvgR2=0.849
+  GeoEvolve_DynamicRAG: time=158.2s, k=9, SSR_red=0.675, AvgR2=0.811
+
+=== US_Health_ARTHRITIS ===
+  shape X=(2000, 9), features=8
+  p=8
+  2kmodels (initial): time=40.0s, k=8, SSR_red=0.553, AvgR2=0.825
+  OpenEvolve_NoGeoKnow: time=9.0s, k=8, SSR_red=0.558, AvgR2=0.850
+  OpenEvolve_SimpleGeoKnow: time=47.3s, k=13, SSR_red=0.586, AvgR2=0.856
+  OpenEvolve_SpecificGeoKnow: time=41.7s, k=8, SSR_red=0.539, AvgR2=0.831
+  GeoEvolve_NoRAG: time=44.4s, k=8, SSR_red=0.540, AvgR2=0.840
+  GeoEvolve_StaticRAG: time=110.2s, k=8, SSR_red=0.598, AvgR2=0.850
+  GeoEvolve_DynamicRAG: time=178.9s, k=8, SSR_red=0.553, AvgR2=0.829
+
+=== US_Health_BPHIGH ===
+  shape X=(2000, 9), features=8
+  p=8
+  2kmodels (initial): time=37.8s, k=8, SSR_red=0.558, AvgR2=0.823
+  OpenEvolve_NoGeoKnow: time=8.3s, k=8, SSR_red=0.553, AvgR2=0.805
+  OpenEvolve_SimpleGeoKnow: time=42.0s, k=11, SSR_red=0.569, AvgR2=0.807
+  OpenEvolve_SpecificGeoKnow: time=36.9s, k=8, SSR_red=0.575, AvgR2=0.815
+  GeoEvolve_NoRAG: time=44.6s, k=8, SSR_red=0.555, AvgR2=0.784
+  GeoEvolve_StaticRAG: time=113.8s, k=8, SSR_red=0.606, AvgR2=0.813
+  GeoEvolve_DynamicRAG: time=184.2s, k=8, SSR_red=0.564, AvgR2=0.795
+
+=== US_Health_CANCER ===
+  shape X=(2000, 9), features=8
+  p=8
+  2kmodels (initial): time=36.5s, k=8, SSR_red=0.634, AvgR2=0.711
+  OpenEvolve_NoGeoKnow: time=8.9s, k=8, SSR_red=0.620, AvgR2=0.676
+  OpenEvolve_SimpleGeoKnow: time=46.2s, k=13, SSR_red=0.653, AvgR2=0.723
+  OpenEvolve_SpecificGeoKnow: time=35.7s, k=8, SSR_red=0.626, AvgR2=0.707
+  GeoEvolve_NoRAG: time=41.9s, k=8, SSR_red=0.620, AvgR2=0.707
+  GeoEvolve_StaticRAG: time=97.0s, k=8, SSR_red=0.635, AvgR2=0.728
+  GeoEvolve_DynamicRAG: time=180.2s, k=8, SSR_red=0.634, AvgR2=0.685
+
+=== US_Health_CASTHMA ===
+  shape X=(2000, 9), features=8
+  p=8
+  2kmodels (initial): time=36.5s, k=8, SSR_red=0.688, AvgR2=0.812
+  OpenEvolve_NoGeoKnow: time=8.8s, k=8, SSR_red=0.653, AvgR2=0.789
+  OpenEvolve_SimpleGeoKnow: time=41.0s, k=16, SSR_red=0.693, AvgR2=0.800
+  OpenEvolve_SpecificGeoKnow: time=35.2s, k=8, SSR_red=0.668, AvgR2=0.777
+  GeoEvolve_NoRAG: time=39.8s, k=8, SSR_red=0.684, AvgR2=0.803
+  GeoEvolve_StaticRAG: time=88.9s, k=8, SSR_red=0.694, AvgR2=0.816
+  GeoEvolve_DynamicRAG: time=168.0s, k=8, SSR_red=0.682, AvgR2=0.798
+
+=== US_Health_DEPRESSION ===
+  shape X=(2000, 9), features=8
+  p=8
+  2kmodels (initial): time=28.3s, k=8, SSR_red=0.739, AvgR2=0.696
+  OpenEvolve_NoGeoKnow: time=8.8s, k=8, SSR_red=0.686, AvgR2=0.727
+  OpenEvolve_SimpleGeoKnow: time=32.4s, k=12, SSR_red=0.782, AvgR2=0.693
+  OpenEvolve_SpecificGeoKnow: time=28.3s, k=8, SSR_red=0.754, AvgR2=0.750
+  GeoEvolve_NoRAG: time=32.0s, k=8, SSR_red=0.737, AvgR2=0.720
+  GeoEvolve_StaticRAG: time=85.3s, k=8, SSR_red=0.770, AvgR2=0.670
+  GeoEvolve_DynamicRAG: time=166.0s, k=8, SSR_red=0.746, AvgR2=0.711
+
+=== US_Health_DIABETES ===
+  shape X=(2000, 9), features=8
+  p=8
+  2kmodels (initial): time=37.4s, k=8, SSR_red=0.602, AvgR2=0.923
+  OpenEvolve_NoGeoKnow: time=8.1s, k=8, SSR_red=0.603, AvgR2=0.915
+  OpenEvolve_SimpleGeoKnow: time=40.0s, k=11, SSR_red=0.610, AvgR2=0.912
+  OpenEvolve_SpecificGeoKnow: time=37.6s, k=8, SSR_red=0.610, AvgR2=0.927
+  GeoEvolve_NoRAG: time=39.4s, k=8, SSR_red=0.617, AvgR2=0.920
+  GeoEvolve_StaticRAG: time=106.8s, k=8, SSR_red=0.643, AvgR2=0.935
+  GeoEvolve_DynamicRAG: time=177.0s, k=8, SSR_red=0.609, AvgR2=0.933
+
+=== US_Health_OBESITY ===
+  shape X=(2000, 9), features=8
+  p=8
+  2kmodels (initial): time=41.9s, k=8, SSR_red=0.488, AvgR2=0.706
+  OpenEvolve_NoGeoKnow: time=9.4s, k=8, SSR_red=0.472, AvgR2=0.690
+  OpenEvolve_SimpleGeoKnow: time=47.9s, k=11, SSR_red=0.506, AvgR2=0.668
+  OpenEvolve_SpecificGeoKnow: time=38.0s, k=8, SSR_red=0.491, AvgR2=0.638
+  GeoEvolve_NoRAG: time=43.6s, k=8, SSR_red=0.497, AvgR2=0.648
+  GeoEvolve_StaticRAG: time=90.8s, k=8, SSR_red=0.499, AvgR2=0.704
+  GeoEvolve_DynamicRAG: time=180.1s, k=8, SSR_red=0.486, AvgR2=0.673
+
+=== US_Health_STROKE ===
+  shape X=(2000, 9), features=8
+  p=8
+  2kmodels (initial): time=39.5s, k=8, SSR_red=0.654, AvgR2=0.901
+  OpenEvolve_NoGeoKnow: time=9.4s, k=8, SSR_red=0.643, AvgR2=0.912
+  OpenEvolve_SimpleGeoKnow: time=42.2s, k=14, SSR_red=0.668, AvgR2=0.904
+  OpenEvolve_SpecificGeoKnow: time=39.4s, k=8, SSR_red=0.664, AvgR2=0.918
+  GeoEvolve_NoRAG: time=44.6s, k=8, SSR_red=0.670, AvgR2=0.922
+  GeoEvolve_StaticRAG: time=96.2s, k=8, SSR_red=0.684, AvgR2=0.921
+  GeoEvolve_DynamicRAG: time=184.7s, k=8, SSR_red=0.652, AvgR2=0.900
+
+=== US_Hydro_CAMELS ===
+  shape X=(670, 11), features=10
+  p=10
+  2kmodels (initial): time=5.6s, k=10, SSR_red=0.640, AvgR2=0.924
+  OpenEvolve_NoGeoKnow: time=2.1s, k=10, SSR_red=0.677, AvgR2=0.926
+  OpenEvolve_SimpleGeoKnow: time=6.9s, k=20, SSR_red=0.752, AvgR2=0.918
+  OpenEvolve_SpecificGeoKnow: time=5.3s, k=10, SSR_red=0.682, AvgR2=0.929
+  GeoEvolve_NoRAG: time=6.8s, k=10, SSR_red=0.632, AvgR2=0.916
+  GeoEvolve_StaticRAG: time=11.9s, k=10, SSR_red=0.771, AvgR2=0.944
+  GeoEvolve_DynamicRAG: time=27.6s, k=10, SSR_red=0.735, AvgR2=0.936
+
+=== US_Politics_Voting ===
+  shape X=(2000, 15), features=14
+  p=8
+  2kmodels (initial): time=42.4s, k=8, SSR_red=0.637, AvgR2=0.820
+  OpenEvolve_NoGeoKnow: time=9.7s, k=8, SSR_red=0.632, AvgR2=0.820
+  OpenEvolve_SimpleGeoKnow: time=46.7s, k=16, SSR_red=0.655, AvgR2=0.837
+  OpenEvolve_SpecificGeoKnow: time=41.7s, k=8, SSR_red=0.615, AvgR2=0.815
+  GeoEvolve_NoRAG: time=47.1s, k=8, SSR_red=0.598, AvgR2=0.815
+  GeoEvolve_StaticRAG: time=185.1s, k=8, SSR_red=0.660, AvgR2=0.847
+  GeoEvolve_DynamicRAG: time=226.2s, k=8, SSR_red=0.622, AvgR2=0.846
+
+Wrote <path>\real_world_study_v2\results_evolved/algorithm_comparison.csv with 77 rows

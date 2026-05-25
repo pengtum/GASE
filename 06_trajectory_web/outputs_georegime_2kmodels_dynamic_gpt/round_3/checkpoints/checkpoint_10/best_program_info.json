@@ -1,0 +1,17 @@
+{
+  "id": "1e45efc7-47c9-4f76-921b-cb615431d2ba",
+  "generation": 0,
+  "iteration": 0,
+  "current_iteration": 10,
+  "metrics": {
+    "ssr": 102.70638410765582,
+    "randi": 0.9499299145299145,
+    "nmi": 0.828851333322422,
+    "mae": 0.18894075224069587,
+    "used_time": 18.60066564877828,
+    "combined_score": 0.9499299145299145
+  },
+  "language": "python",
+  "timestamp": 1768898253.948093,
+  "saved_at": 1768898718.931923
+}

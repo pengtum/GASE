@@ -1,0 +1,1318 @@
+2026-01-20 09:27:47,773 - openevolve.controller - INFO - Logging to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_2\logs\openevolve_20260120_092747.log
+2026-01-20 09:27:47,774 - openevolve.controller - INFO - Set random seed to 42 for reproducibility
+2026-01-20 09:27:47,807 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 09:27:47,838 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 09:27:47,838 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-01-20 09:27:47,838 - openevolve.database - INFO - Initialized program database with 0 programs
+2026-01-20 09:27:47,838 - openevolve.evaluator - INFO - Successfully loaded evaluation function from ./examples/georegime/evaluator.py
+2026-01-20 09:27:47,838 - openevolve.evaluator - INFO - Initialized evaluator with ./examples/georegime/evaluator.py
+2026-01-20 09:27:47,838 - openevolve.controller - INFO - Initialized OpenEvolve with ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_1/best/best_program.py
+2026-01-20 09:27:47,884 - openevolve.controller - INFO - Adding initial program to database
+2026-01-20 09:28:37,250 - openevolve.evaluator - INFO - Evaluated program 240c8ca3-8bba-4e27-abb6-aa6b06f6a0d2 in 49.36s: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=16.3581, combined_score=0.9499
+2026-01-20 09:28:37,252 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 5}
+2026-01-20 09:28:37,253 - openevolve.process_parallel - INFO - Initialized process parallel controller with 4 workers
+2026-01-20 09:28:37,254 - openevolve.process_parallel - INFO - Worker-to-island mapping: {0: 0, 1: 1, 2: 2, 3: 3}
+2026-01-20 09:28:37,259 - openevolve.process_parallel - INFO - Started process pool with 4 processes
+2026-01-20 09:28:37,259 - openevolve.controller - INFO - Using island-based evolution with 5 islands
+2026-01-20 09:28:37,259 - openevolve.database - INFO - Island Status:
+2026-01-20 09:28:37,259 - openevolve.database - INFO -  * Island 0: 1 programs, best=0.9499, avg=0.9499, diversity=0.00, gen=0 (best: 240c8ca3-8bba-4e27-abb6-aa6b06f6a0d2)
+2026-01-20 09:28:37,259 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 09:28:37,259 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 09:28:37,259 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 09:28:37,259 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 09:28:37,259 - openevolve.process_parallel - INFO - Starting process-based evolution from iteration 1 for 10 iterations (total: 11)
+2026-01-20 09:28:38,134 - openevolve.process_parallel - INFO - Early stopping disabled
+2026-01-20 09:30:39,448 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 9}
+2026-01-20 09:30:39,456 - openevolve.process_parallel - INFO - Iteration 4: Program 1e07a9c8-4443-4a50-868e-e1beae3e495e (parent: 240c8ca3-8bba-4e27-abb6-aa6b06f6a0d2) completed in 109.96s
+2026-01-20 09:30:39,457 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error=too many values to unpack (expected 5)
+2026-01-20 09:30:58,010 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 8}
+2026-01-20 09:30:58,011 - openevolve.process_parallel - INFO - Iteration 1: Program 9d4bf3bf-71b5-4fd7-9a86-fdf2614240c1 (parent: 240c8ca3-8bba-4e27-abb6-aa6b06f6a0d2) completed in 128.53s
+2026-01-20 09:30:58,012 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error=too many values to unpack (expected 5)
+2026-01-20 09:31:00,571 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 5}
+2026-01-20 09:31:00,571 - openevolve.process_parallel - INFO - Iteration 5: Program ef0cba79-304b-444b-ba7a-57742e882ebb (parent: 240c8ca3-8bba-4e27-abb6-aa6b06f6a0d2) completed in 21.13s
+2026-01-20 09:31:00,571 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error='tuple' object has no attribute 'astype'
+2026-01-20 09:31:29,119 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 2, 'complexity': 0}
+2026-01-20 09:31:29,119 - openevolve.process_parallel - INFO - Iteration 7: Program 128879fe-b786-4311-aea0-85a85f2918a9 (parent: 240c8ca3-8bba-4e27-abb6-aa6b06f6a0d2) completed in 28.53s
+2026-01-20 09:31:29,119 - openevolve.process_parallel - INFO - Metrics: ssr=1205.4126, randi=0.2246, nmi=0.0000, mae=1.2593, used_time=0.9552, combined_score=0.2246
+2026-01-20 09:32:08,689 - openevolve.process_parallel - INFO - Iteration 8: Program e9557340-bfab-4da0-a3b8-43578e682939 (parent: ef0cba79-304b-444b-ba7a-57742e882ebb) completed in 39.57s
+2026-01-20 09:32:08,693 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error='tuple' object has no attribute 'astype'
+2026-01-20 09:32:15,212 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 2}
+2026-01-20 09:32:15,213 - openevolve.process_parallel - INFO - Iteration 2: Program a87e7e88-ba65-492b-a558-fb9ddcf64698 (parent: 240c8ca3-8bba-4e27-abb6-aa6b06f6a0d2) completed in 205.75s
+2026-01-20 09:32:15,213 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 09:32:34,382 - openevolve.process_parallel - WARNING - Iteration 9 error: No valid diffs found in response
+2026-01-20 09:32:48,925 - openevolve.process_parallel - INFO - Iteration 10: Program bff7ba01-3bfc-443c-a52d-2d061c42991d (parent: 9d4bf3bf-71b5-4fd7-9a86-fdf2614240c1) completed in 33.69s
+2026-01-20 09:32:48,926 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error='tuple' object has no attribute 'astype'
+2026-01-20 09:32:48,927 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 10
+2026-01-20 09:32:48,932 - openevolve.database - INFO - Island Status:
+2026-01-20 09:32:48,933 - openevolve.database - INFO -  * Island 0: 8 programs, best=0.9499, avg=0.2093, diversity=785.88, gen=3 (best: 240c8ca3-8bba-4e27-abb6-aa6b06f6a0d2)
+2026-01-20 09:32:48,934 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 09:32:48,935 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 09:32:48,935 - openevolve.database - INFO -    Island 3: 1 programs, best=0.9499, avg=0.9499, diversity=0.00, gen=1
+2026-01-20 09:32:48,936 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 09:32:48,986 - openevolve.database - INFO - Saved database with 9 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_2\checkpoints\checkpoint_10
+2026-01-20 09:32:48,992 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=16.3581, combined_score=0.9499
+2026-01-20 09:32:48,993 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_2\checkpoints\checkpoint_10
+2026-01-20 09:32:53,200 - openevolve.process_parallel - INFO - Iteration 3: Program e81f7419-4f43-4df6-a518-e88d160df6a5 (parent: 240c8ca3-8bba-4e27-abb6-aa6b06f6a0d2) completed in 243.70s
+2026-01-20 09:32:53,201 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 09:33:49,432 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 6}
+2026-01-20 09:33:49,433 - openevolve.process_parallel - INFO - Iteration 6: Program 764f7830-b135-41b0-9d77-7b18e7cd5cc8 (parent: e3bba0ab-f1c7-4345-86ee-4951f6a3301a) completed in 171.42s
+2026-01-20 09:33:49,433 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 09:33:49,478 - openevolve.database - INFO - Saved database with 11 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_2\checkpoints\checkpoint_10
+2026-01-20 09:33:49,478 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=16.3581, combined_score=0.9499
+2026-01-20 09:33:49,478 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_2\checkpoints\checkpoint_10
+2026-01-20 09:33:51,555 - openevolve.process_parallel - INFO - Stopped process pool
+2026-01-20 09:33:51,555 - openevolve.controller - INFO - Using tracked best program: 240c8ca3-8bba-4e27-abb6-aa6b06f6a0d2
+2026-01-20 09:33:51,555 - openevolve.controller - INFO - Evolution complete. Best program has metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=16.3581, combined_score=0.9499
+2026-01-20 09:33:51,571 - openevolve.controller - INFO - Saved best program to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_2\best\best_program.py with program info to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_2\best\best_program_info.json
+2026-01-20 09:33:52,009 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:33:55,025 - wikipediaapi - INFO - Wikipedia: language=en, user_agent: geoevolve (Wikipedia-API/0.8.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.WIKI
+2026-01-20 09:33:55,025 - wikipediaapi - INFO - Request URL: https://en.wikipedia.org/w/api.php?format=json&redirects=1&action=query&prop=info&titles=spatially constrained clustering theory and contiguity enforcement&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle|varianttitles
+2026-01-20 09:33:55,260 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=all%3Aspatially+constrained+clustering+theory+and+contiguity+enforcement+OR+ti%3Aspatially+constrained+clustering+theory+and+contiguity+enforcement+OR+abs%3Aspatially+constrained+clustering+theory+and+contiguity+enforcement&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2026-01-20 09:33:59,196 - arxiv - INFO - Got first page: 100 of 1007438 total results
+2026-01-20 09:33:59,743 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:34:10,979 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:34:20,618 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:34:21,572 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:23,166 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:34:23,244 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:34:23,259 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:34:23,259 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:34:23,275 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:34:23,792 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:24,040 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:24,056 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:24,083 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:24,197 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:25,728 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:26,198 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:26,400 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:26,979 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:27,103 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:27,103 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:28,477 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:28,790 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:29,510 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:29,998 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:30,040 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:30,744 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:31,176 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:32,784 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:33,603 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:34:36,104 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:08,886 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:10,321 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:35:10,321 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:35:10,321 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:35:10,321 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:35:10,603 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:35:10,978 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:11,040 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:11,056 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:11,134 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:11,384 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:11,603 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:11,728 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:12,214 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:12,289 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:12,573 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:12,759 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:12,791 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:12,900 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:13,228 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:13,572 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:15,510 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:15,634 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:15,821 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:16,916 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:17,537 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:20,790 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:38,353 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:39,337 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:35:39,337 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:35:39,353 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:35:39,431 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:35:39,447 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:35:40,025 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:40,071 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:40,165 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:40,228 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:40,259 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:41,618 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:42,014 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:42,557 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:42,573 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:42,838 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:43,245 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:43,246 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:43,432 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:43,650 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:43,963 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:44,619 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:45,055 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:46,915 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:47,060 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:47,120 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:35:48,901 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:36:21,197 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:36:37,947 - openevolve.controller - INFO - Logging to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_3\logs\openevolve_20260120_093637.log
+2026-01-20 09:36:37,947 - openevolve.controller - INFO - Set random seed to 42 for reproducibility
+2026-01-20 09:36:37,993 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 09:36:38,044 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 09:36:38,056 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-01-20 09:36:38,056 - openevolve.database - INFO - Initialized program database with 0 programs
+2026-01-20 09:36:38,056 - openevolve.evaluator - INFO - Successfully loaded evaluation function from ./examples/georegime/evaluator.py
+2026-01-20 09:36:38,056 - openevolve.evaluator - INFO - Initialized evaluator with ./examples/georegime/evaluator.py
+2026-01-20 09:36:38,056 - openevolve.controller - INFO - Initialized OpenEvolve with ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_2/best/best_program.py
+2026-01-20 09:36:38,087 - openevolve.controller - INFO - Adding initial program to database
+2026-01-20 09:37:33,944 - openevolve.evaluator - INFO - Evaluated program 1e45efc7-47c9-4f76-921b-cb615431d2ba in 55.86s: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=18.6007, combined_score=0.9499
+2026-01-20 09:37:33,948 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 5}
+2026-01-20 09:37:33,949 - openevolve.process_parallel - INFO - Initialized process parallel controller with 4 workers
+2026-01-20 09:37:33,950 - openevolve.process_parallel - INFO - Worker-to-island mapping: {0: 0, 1: 1, 2: 2, 3: 3}
+2026-01-20 09:37:33,957 - openevolve.process_parallel - INFO - Started process pool with 4 processes
+2026-01-20 09:37:33,958 - openevolve.controller - INFO - Using island-based evolution with 5 islands
+2026-01-20 09:37:33,959 - openevolve.database - INFO - Island Status:
+2026-01-20 09:37:33,959 - openevolve.database - INFO -  * Island 0: 1 programs, best=0.9499, avg=0.9499, diversity=0.00, gen=0 (best: 1e45efc7-47c9-4f76-921b-cb615431d2ba)
+2026-01-20 09:37:33,960 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 09:37:33,961 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 09:37:33,963 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 09:37:33,963 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 09:37:33,963 - openevolve.process_parallel - INFO - Starting process-based evolution from iteration 1 for 10 iterations (total: 11)
+2026-01-20 09:37:34,954 - openevolve.process_parallel - INFO - Early stopping disabled
+2026-01-20 09:39:27,415 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 9}
+2026-01-20 09:39:27,415 - openevolve.process_parallel - INFO - Iteration 3: Program be3080f8-a5c7-4695-ad87-e6cdd2549885 (parent: 1e45efc7-47c9-4f76-921b-cb615431d2ba) completed in 100.51s
+2026-01-20 09:39:27,415 - openevolve.process_parallel - INFO - Metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=22.6370, combined_score=0.9499
+2026-01-20 09:39:50,009 - openevolve.process_parallel - INFO - Iteration 1: Program 5111bd1c-c807-4b52-995a-0d8fc8af9c7f (parent: 1e45efc7-47c9-4f76-921b-cb615431d2ba) completed in 123.12s
+2026-01-20 09:39:50,011 - openevolve.process_parallel - INFO - Metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=21.9141, combined_score=0.9499
+2026-01-20 09:40:44,775 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 9}
+2026-01-20 09:40:44,776 - openevolve.process_parallel - INFO - Iteration 4: Program 8c7e510e-cc59-4829-a61c-4cfef14282a1 (parent: 1e45efc7-47c9-4f76-921b-cb615431d2ba) completed in 177.87s
+2026-01-20 09:40:44,777 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 09:40:56,149 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 5}
+2026-01-20 09:40:56,149 - openevolve.process_parallel - INFO - Iteration 5: Program 7234a38c-be76-4438-9352-f0f6120c0f14 (parent: 1e45efc7-47c9-4f76-921b-cb615431d2ba) completed in 88.72s
+2026-01-20 09:40:56,149 - openevolve.process_parallel - INFO - Metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=18.2956, combined_score=0.9499
+2026-01-20 09:41:15,869 - openevolve.process_parallel - INFO - Iteration 8: Program 8983e79b-2fe7-4704-9b1f-c0a95fcb48ef (parent: 8c7e510e-cc59-4829-a61c-4cfef14282a1) completed in 19.72s
+2026-01-20 09:41:15,870 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error=name 'best_pair' is not defined
+2026-01-20 09:41:21,165 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 6, 'complexity': 9}
+2026-01-20 09:41:21,165 - openevolve.process_parallel - INFO - Iteration 6: Program 63602a89-b219-42dd-86bf-d63d4e202981 (parent: 76be4ebc-37f0-4614-a2aa-e63ad27a2b9d) completed in 91.15s
+2026-01-20 09:41:21,165 - openevolve.process_parallel - INFO - Metrics: ssr=975.8780, randi=0.5740, nmi=0.2910, mae=1.1028, used_time=16.9609, combined_score=0.5740
+2026-01-20 09:42:02,494 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 0}
+2026-01-20 09:42:02,494 - openevolve.process_parallel - INFO - Iteration 10: Program 5d415529-9b03-4e54-b26c-203bc3dc2412 (parent: 434c49a5-6677-46aa-ad42-5cc36ec214be) completed in 41.33s
+2026-01-20 09:42:02,494 - openevolve.process_parallel - INFO - Metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=8.8116, combined_score=0.9499
+2026-01-20 09:42:02,494 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 10
+2026-01-20 09:42:02,494 - openevolve.database - INFO - Island Status:
+2026-01-20 09:42:02,494 - openevolve.database - INFO -  * Island 0: 6 programs, best=0.9499, avg=0.7166, diversity=291.08, gen=3 (best: 1e45efc7-47c9-4f76-921b-cb615431d2ba)
+2026-01-20 09:42:02,494 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 09:42:02,494 - openevolve.database - INFO -    Island 2: 2 programs, best=0.9499, avg=0.7620, diversity=698.50, gen=1 (best: 63602a89-b219-42dd-86bf-d63d4e202981)
+2026-01-20 09:42:02,494 - openevolve.database - INFO -    Island 3: 2 programs, best=0.9499, avg=0.9499, diversity=126.60, gen=1 (best: 5d415529-9b03-4e54-b26c-203bc3dc2412)
+2026-01-20 09:42:02,494 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 09:42:02,541 - openevolve.database - INFO - Saved database with 10 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_3\checkpoints\checkpoint_10
+2026-01-20 09:42:02,541 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=18.6007, combined_score=0.9499
+2026-01-20 09:42:02,541 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_3\checkpoints\checkpoint_10
+2026-01-20 09:42:10,337 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 6}
+2026-01-20 09:42:10,337 - openevolve.process_parallel - INFO - Iteration 2: Program 0059fee4-491d-4bb0-bbb3-b8db317c897c (parent: 1e45efc7-47c9-4f76-921b-cb615431d2ba) completed in 263.44s
+2026-01-20 09:42:10,337 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 09:44:19,259 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 4}
+2026-01-20 09:44:19,259 - openevolve.process_parallel - INFO - Iteration 7: Program f7318655-13b8-42d2-b3bf-c6fb8ff5b0ae (parent: 1e45efc7-47c9-4f76-921b-cb615431d2ba) completed in 214.47s
+2026-01-20 09:44:19,259 - openevolve.process_parallel - INFO - Metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=13.9309, combined_score=0.9499
+2026-01-20 09:45:18,885 - openevolve.process_parallel - INFO - Iteration 9: Program 2c57de74-e41e-42fd-85c6-c2835816d9e8 (parent: 7234a38c-be76-4438-9352-f0f6120c0f14) completed in 243.00s
+2026-01-20 09:45:18,885 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 09:45:18,931 - openevolve.database - INFO - Saved database with 13 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_3\checkpoints\checkpoint_10
+2026-01-20 09:45:18,931 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=18.6007, combined_score=0.9499
+2026-01-20 09:45:18,931 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_3\checkpoints\checkpoint_10
+2026-01-20 09:45:20,432 - openevolve.process_parallel - INFO - Stopped process pool
+2026-01-20 09:45:20,432 - openevolve.controller - INFO - Using tracked best program: 1e45efc7-47c9-4f76-921b-cb615431d2ba
+2026-01-20 09:45:20,432 - openevolve.controller - INFO - Evolution complete. Best program has metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=18.6007, combined_score=0.9499
+2026-01-20 09:45:20,448 - openevolve.controller - INFO - Saved best program to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_3\best\best_program.py with program info to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_3\best\best_program_info.json
+2026-01-20 09:45:20,932 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:22,838 - wikipediaapi - INFO - Wikipedia: language=en, user_agent: geoevolve (Wikipedia-API/0.8.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.WIKI
+2026-01-20 09:45:22,838 - wikipediaapi - INFO - Request URL: https://en.wikipedia.org/w/api.php?format=json&redirects=1&action=query&prop=info&titles=spatially constrained clustering with contiguity and compactness&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle|varianttitles
+2026-01-20 09:45:23,072 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=all%3Aspatially+constrained+clustering+with+contiguity+and+compactness+OR+ti%3Aspatially+constrained+clustering+with+contiguity+and+compactness+OR+abs%3Aspatially+constrained+clustering+with+contiguity+and+compactness&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2026-01-20 09:45:26,867 - arxiv - INFO - Got first page: 100 of 406092 total results
+2026-01-20 09:45:27,525 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:45:32,237 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:45:33,058 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:45:37,963 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:38,729 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:45:38,787 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:45:38,788 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:45:38,791 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:45:38,791 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:45:39,354 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:39,510 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:39,526 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:39,588 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:39,912 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:40,385 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:42,168 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:42,179 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:42,619 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:42,808 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:43,307 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:43,338 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:43,979 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:44,276 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:44,385 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:44,541 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:45,290 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:45,806 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:46,822 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:46,992 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:45:49,291 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:08,088 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:09,072 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:46:09,072 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:46:09,072 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:46:09,088 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:46:09,088 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:46:09,716 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:09,838 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:09,869 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:09,963 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:10,541 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:10,667 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:11,104 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:11,198 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:11,214 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:11,620 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:11,651 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:12,011 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:12,244 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:12,963 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:13,261 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:13,437 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:14,026 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:14,244 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:14,588 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:15,119 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:16,557 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:26,416 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:28,338 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:46:28,338 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:46:28,354 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:46:28,354 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:46:28,354 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 09:46:29,009 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:29,177 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:29,197 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:29,213 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:29,463 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:30,448 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:30,963 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:31,056 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:31,603 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:31,618 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:33,231 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:33,385 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:34,338 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:34,550 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:34,603 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:35,072 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:35,244 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:36,197 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:36,389 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:38,001 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:39,572 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:48,916 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 09:46:58,235 - openevolve.controller - INFO - Logging to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_4\logs\openevolve_20260120_094658.log
+2026-01-20 09:46:58,235 - openevolve.controller - INFO - Set random seed to 42 for reproducibility
+2026-01-20 09:46:58,281 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 09:46:58,322 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 09:46:58,337 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-01-20 09:46:58,337 - openevolve.database - INFO - Initialized program database with 0 programs
+2026-01-20 09:46:58,337 - openevolve.evaluator - INFO - Successfully loaded evaluation function from ./examples/georegime/evaluator.py
+2026-01-20 09:46:58,337 - openevolve.evaluator - INFO - Initialized evaluator with ./examples/georegime/evaluator.py
+2026-01-20 09:46:58,337 - openevolve.controller - INFO - Initialized OpenEvolve with ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_3/best/best_program.py
+2026-01-20 09:46:58,369 - openevolve.controller - INFO - Adding initial program to database
+2026-01-20 09:47:45,713 - openevolve.evaluator - INFO - Evaluated program 34050a1e-43eb-431b-962b-41563c9ad4c7 in 47.34s: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=15.7630, combined_score=0.9499
+2026-01-20 09:47:45,713 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 5}
+2026-01-20 09:47:45,713 - openevolve.process_parallel - INFO - Initialized process parallel controller with 4 workers
+2026-01-20 09:47:45,713 - openevolve.process_parallel - INFO - Worker-to-island mapping: {0: 0, 1: 1, 2: 2, 3: 3}
+2026-01-20 09:47:45,728 - openevolve.process_parallel - INFO - Started process pool with 4 processes
+2026-01-20 09:47:45,728 - openevolve.controller - INFO - Using island-based evolution with 5 islands
+2026-01-20 09:47:45,728 - openevolve.database - INFO - Island Status:
+2026-01-20 09:47:45,728 - openevolve.database - INFO -  * Island 0: 1 programs, best=0.9499, avg=0.9499, diversity=0.00, gen=0 (best: 34050a1e-43eb-431b-962b-41563c9ad4c7)
+2026-01-20 09:47:45,728 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 09:47:45,728 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 09:47:45,728 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 09:47:45,728 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 09:47:45,728 - openevolve.process_parallel - INFO - Starting process-based evolution from iteration 1 for 10 iterations (total: 11)
+2026-01-20 09:47:46,504 - openevolve.process_parallel - INFO - Early stopping disabled
+2026-01-20 09:49:47,792 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 9}
+2026-01-20 09:49:47,793 - openevolve.process_parallel - INFO - Iteration 4: Program 57b2015d-e892-49e0-8078-eb5cfa9c7269 (parent: 34050a1e-43eb-431b-962b-41563c9ad4c7) completed in 113.92s
+2026-01-20 09:49:47,794 - openevolve.process_parallel - INFO - Metrics: ssr=102.0557, randi=0.9395, nmi=0.8191, mae=0.2499, used_time=25.8994, combined_score=0.9395
+2026-01-20 09:50:12,911 - openevolve.process_parallel - INFO - Iteration 1: Program 6c75fb2d-4b01-4c8a-8851-9b276181a5ff (parent: 34050a1e-43eb-431b-962b-41563c9ad4c7) completed in 139.03s
+2026-01-20 09:50:12,911 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 09:50:22,836 - openevolve.process_parallel - INFO - Iteration 3: Program 92970019-a80a-4d00-bf84-7725b038da53 (parent: 34050a1e-43eb-431b-962b-41563c9ad4c7) completed in 148.95s
+2026-01-20 09:50:22,836 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 09:51:43,732 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 4}
+2026-01-20 09:51:43,732 - openevolve.process_parallel - INFO - Iteration 5: Program ba243c4f-523f-4721-9068-2e5dedc6b5cb (parent: 34050a1e-43eb-431b-962b-41563c9ad4c7) completed in 115.93s
+2026-01-20 09:51:43,732 - openevolve.process_parallel - INFO - Metrics: ssr=100.4898, randi=0.9490, nmi=0.8292, mae=0.1990, used_time=26.2517, combined_score=0.9490
+2026-01-20 09:52:34,178 - openevolve.process_parallel - INFO - Iteration 7: Program b945d156-edd3-4300-8b39-e66b2476e868 (parent: 57b2015d-e892-49e0-8078-eb5cfa9c7269) completed in 131.34s
+2026-01-20 09:52:34,178 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 09:53:15,420 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 2}
+2026-01-20 09:53:15,420 - openevolve.process_parallel - INFO - Iteration 6: Program f85c4048-c837-4f1a-8637-21e8a6a3c113 (parent: ac99b2c6-9254-404d-9466-7d572ca2da33) completed in 182.51s
+2026-01-20 09:53:15,420 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 09:53:31,398 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 0}
+2026-01-20 09:53:31,398 - openevolve.process_parallel - INFO - Iteration 10: Program a288e39f-fc76-4f9b-9512-76a04f8013f9 (parent: 34050a1e-43eb-431b-962b-41563c9ad4c7) completed in 15.96s
+2026-01-20 09:53:31,398 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error=init_zones() got an unexpected keyword argument 'rng'
+2026-01-20 09:53:31,398 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 10
+2026-01-20 09:53:31,398 - openevolve.database - INFO - Island Status:
+2026-01-20 09:53:31,398 - openevolve.database - INFO -  * Island 0: 7 programs, best=0.9499, avg=0.6198, diversity=469.13, gen=3 (best: 34050a1e-43eb-431b-962b-41563c9ad4c7)
+2026-01-20 09:53:31,398 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 09:53:31,398 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 09:53:31,398 - openevolve.database - INFO -    Island 3: 2 programs, best=0.9499, avg=0.7250, diversity=255.00, gen=1 (best: f85c4048-c837-4f1a-8637-21e8a6a3c113)
+2026-01-20 09:53:31,398 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 09:53:31,429 - openevolve.database - INFO - Saved database with 9 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_4\checkpoints\checkpoint_10
+2026-01-20 09:53:31,444 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=15.7630, combined_score=0.9499
+2026-01-20 09:53:31,444 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_4\checkpoints\checkpoint_10
+2026-01-20 09:53:33,508 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 0}
+2026-01-20 09:53:33,524 - openevolve.process_parallel - INFO - Iteration 8: Program 862501b1-748c-43fe-8e23-6a83570f7d57 (parent: 34050a1e-43eb-431b-962b-41563c9ad4c7) completed in 109.78s
+2026-01-20 09:53:33,524 - openevolve.process_parallel - INFO - Metrics: ssr=91.5102, randi=0.9542, nmi=0.8388, mae=0.1680, used_time=28.2881, combined_score=0.9542
+2026-01-20 09:54:30,427 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 8}
+2026-01-20 09:54:30,427 - openevolve.process_parallel - INFO - Iteration 9: Program 39619c18-0da5-44c1-9f33-b094d388b3db (parent: 92970019-a80a-4d00-bf84-7725b038da53) completed in 116.23s
+2026-01-20 09:54:30,427 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:22:09,112 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 4}
+2026-01-20 10:22:09,112 - openevolve.process_parallel - INFO - Iteration 2: Program eebf3216-0472-4b9f-b0e4-abc820e606aa (parent: 34050a1e-43eb-431b-962b-41563c9ad4c7) completed in 2055.21s
+2026-01-20 10:22:09,112 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:22:09,159 - openevolve.database - INFO - Saved database with 12 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_4\checkpoints\checkpoint_10
+2026-01-20 10:22:09,159 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=91.5102, randi=0.9542, nmi=0.8388, mae=0.1680, used_time=28.2881, combined_score=0.9542
+2026-01-20 10:22:09,174 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_4\checkpoints\checkpoint_10
+2026-01-20 10:22:10,691 - openevolve.process_parallel - INFO - Stopped process pool
+2026-01-20 10:22:10,691 - openevolve.controller - INFO - Using tracked best program: 862501b1-748c-43fe-8e23-6a83570f7d57
+2026-01-20 10:22:10,691 - openevolve.controller - INFO - Evolution complete. Best program has metrics: ssr=91.5102, randi=0.9542, nmi=0.8388, mae=0.1680, used_time=28.2881, combined_score=0.9542
+2026-01-20 10:22:10,691 - openevolve.controller - INFO - Saved best program to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_4\best\best_program.py with program info to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_4\best\best_program_info.json
+2026-01-20 10:22:11,191 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:18,019 - wikipediaapi - INFO - Wikipedia: language=en, user_agent: geoevolve (Wikipedia-API/0.8.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.WIKI
+2026-01-20 10:22:18,019 - wikipediaapi - INFO - Request URL: https://en.wikipedia.org/w/api.php?format=json&redirects=1&action=query&prop=info&titles=spatially constrained clustering algorithms&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle|varianttitles
+2026-01-20 10:22:18,238 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=all%3Aspatially+constrained+clustering+algorithms+OR+ti%3Aspatially+constrained+clustering+algorithms+OR+abs%3Aspatially+constrained+clustering+algorithms&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2026-01-20 10:22:20,144 - arxiv - INFO - Got first page: 100 of 592598 total results
+2026-01-20 10:22:20,691 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:25,957 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:26,536 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:30,192 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:31,363 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:31,426 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:31,426 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:31,426 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:31,457 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:31,926 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:32,113 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:32,129 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:32,129 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:32,238 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:33,051 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:33,551 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:33,942 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:35,035 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:35,223 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:35,457 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:35,504 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:35,864 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:35,957 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:36,535 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:37,583 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:37,739 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:38,520 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:39,036 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:40,769 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:41,660 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:52,442 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:54,880 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:54,895 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:54,895 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:54,895 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:54,911 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:22:55,411 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:55,567 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:55,614 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:55,676 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:55,926 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:56,145 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:56,192 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:56,364 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:56,442 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:56,895 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:56,942 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:57,474 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:58,318 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:58,381 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:58,396 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:58,677 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:59,443 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:59,459 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:22:59,522 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:01,878 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:03,362 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:20,366 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:21,397 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:23:21,397 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:23:21,413 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:23:21,413 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:23:21,413 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:23:22,038 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:22,132 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:22,132 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:22,178 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:22,194 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:23,725 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:23,928 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:23,975 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:24,116 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:24,288 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:25,241 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:25,741 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:26,272 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:26,585 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:26,897 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:27,710 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:27,913 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:28,647 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:29,413 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:32,382 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:36,054 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:23:57,896 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:24:04,282 - openevolve.controller - INFO - Logging to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_5\logs\openevolve_20260120_102404.log
+2026-01-20 10:24:04,282 - openevolve.controller - INFO - Set random seed to 42 for reproducibility
+2026-01-20 10:24:04,314 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 10:24:04,345 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 10:24:04,360 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-01-20 10:24:04,360 - openevolve.database - INFO - Initialized program database with 0 programs
+2026-01-20 10:24:04,360 - openevolve.evaluator - INFO - Successfully loaded evaluation function from ./examples/georegime/evaluator.py
+2026-01-20 10:24:04,360 - openevolve.evaluator - INFO - Initialized evaluator with ./examples/georegime/evaluator.py
+2026-01-20 10:24:04,360 - openevolve.controller - INFO - Initialized OpenEvolve with ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_4/best/best_program.py
+2026-01-20 10:24:04,392 - openevolve.controller - INFO - Adding initial program to database
+2026-01-20 10:25:12,185 - openevolve.evaluator - INFO - Evaluated program 028dfaf3-223d-4160-bc9e-5cf593f26ce6 in 67.79s: ssr=88.0481, randi=0.9493, nmi=0.8277, mae=0.1791, used_time=22.5874, combined_score=0.9493
+2026-01-20 10:25:12,185 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 5}
+2026-01-20 10:25:12,185 - openevolve.process_parallel - INFO - Initialized process parallel controller with 4 workers
+2026-01-20 10:25:12,185 - openevolve.process_parallel - INFO - Worker-to-island mapping: {0: 0, 1: 1, 2: 2, 3: 3}
+2026-01-20 10:25:12,185 - openevolve.process_parallel - INFO - Started process pool with 4 processes
+2026-01-20 10:25:12,185 - openevolve.controller - INFO - Using island-based evolution with 5 islands
+2026-01-20 10:25:12,201 - openevolve.database - INFO - Island Status:
+2026-01-20 10:25:12,201 - openevolve.database - INFO -  * Island 0: 1 programs, best=0.9493, avg=0.9493, diversity=0.00, gen=0 (best: 028dfaf3-223d-4160-bc9e-5cf593f26ce6)
+2026-01-20 10:25:12,201 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 10:25:12,201 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 10:25:12,201 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 10:25:12,201 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 10:25:12,201 - openevolve.process_parallel - INFO - Starting process-based evolution from iteration 1 for 10 iterations (total: 11)
+2026-01-20 10:25:12,857 - openevolve.process_parallel - INFO - Early stopping disabled
+2026-01-20 10:27:17,422 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 9}
+2026-01-20 10:27:17,422 - openevolve.process_parallel - INFO - Iteration 3: Program c99450b2-1b7d-43be-8d57-baa5a0538442 (parent: 028dfaf3-223d-4160-bc9e-5cf593f26ce6) completed in 118.28s
+2026-01-20 10:27:17,422 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:27:42,472 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 9}
+2026-01-20 10:27:42,472 - openevolve.process_parallel - INFO - Iteration 4: Program 560de145-d909-4b94-afce-15f1182c6741 (parent: 028dfaf3-223d-4160-bc9e-5cf593f26ce6) completed in 143.33s
+2026-01-20 10:27:42,472 - openevolve.process_parallel - INFO - Metrics: ssr=91.0426, randi=0.9445, nmi=0.8286, mae=0.2176, used_time=30.3089, combined_score=0.9445
+2026-01-20 10:27:52,097 - openevolve.process_parallel - INFO - Iteration 1: Program 857b9c1b-d87c-4395-97c5-9d7f37eae04f (parent: 028dfaf3-223d-4160-bc9e-5cf593f26ce6) completed in 152.96s
+2026-01-20 10:27:52,097 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:27:57,238 - openevolve.process_parallel - INFO - Iteration 2: Program e9777e59-72e1-4fdb-9907-d12209832feb (parent: 028dfaf3-223d-4160-bc9e-5cf593f26ce6) completed in 158.10s
+2026-01-20 10:27:57,238 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:29:00,218 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 5}
+2026-01-20 10:29:00,218 - openevolve.process_parallel - INFO - Iteration 6: Program 564bf524-e5f7-4fdf-b761-da01ee40da72 (parent: 210d8023-b1de-4923-aaa4-b467c3558f5d) completed in 77.75s
+2026-01-20 10:29:00,218 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error=too many values to unpack (expected 5)
+2026-01-20 10:29:52,075 - openevolve.process_parallel - INFO - Iteration 5: Program db2f0881-b1bb-468f-a4ef-6c453f8a9998 (parent: 028dfaf3-223d-4160-bc9e-5cf593f26ce6) completed in 154.65s
+2026-01-20 10:29:52,075 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:30:00,169 - openevolve.process_parallel - INFO - Iteration 7: Program 00be45d8-69b1-4acb-aecd-bbb7394a5458 (parent: 560de145-d909-4b94-afce-15f1182c6741) completed in 128.07s
+2026-01-20 10:30:00,169 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error='numpy.int64' object is not iterable
+2026-01-20 10:30:44,175 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 7}
+2026-01-20 10:30:44,175 - openevolve.process_parallel - INFO - Iteration 10: Program 08177d89-c74b-4274-b885-dab97ac35759 (parent: 564bf524-e5f7-4fdf-b761-da01ee40da72) completed in 52.10s
+2026-01-20 10:30:44,175 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error=too many values to unpack (expected 5)
+2026-01-20 10:30:44,175 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 10
+2026-01-20 10:30:44,175 - openevolve.database - INFO - Island Status:
+2026-01-20 10:30:44,175 - openevolve.database - INFO -    Island 0: 7 programs, best=0.9493, avg=0.5562, diversity=636.25, gen=2 (best: 028dfaf3-223d-4160-bc9e-5cf593f26ce6)
+2026-01-20 10:30:44,175 - openevolve.database - INFO -  * Island 1: 1 programs, best=0.9493, avg=0.9493, diversity=0.00, gen=3
+2026-01-20 10:30:44,190 - openevolve.database - INFO -    Island 2: 3 programs, best=0.9493, avg=0.3164, diversity=542.67, gen=1 (best: 564bf524-e5f7-4fdf-b761-da01ee40da72)
+2026-01-20 10:30:44,190 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 10:30:44,190 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 10:30:44,222 - openevolve.database - INFO - Saved database with 11 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_5\checkpoints\checkpoint_10
+2026-01-20 10:30:44,222 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=88.0481, randi=0.9493, nmi=0.8277, mae=0.1791, used_time=22.5874, combined_score=0.9493
+2026-01-20 10:30:44,222 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_5\checkpoints\checkpoint_10
+2026-01-20 10:30:49,425 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 0}
+2026-01-20 10:30:49,440 - openevolve.process_parallel - INFO - Iteration 9: Program 75403498-e600-4f80-9c11-8cffa17f307e (parent: da47ce86-4d79-4e64-bec7-88b0824a1a9f) completed in 109.21s
+2026-01-20 10:30:49,440 - openevolve.process_parallel - INFO - Metrics: ssr=85.3352, randi=0.9541, nmi=0.8454, mae=0.1601, used_time=30.8498, combined_score=0.9541
+2026-01-20 10:32:03,528 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 4}
+2026-01-20 10:32:03,543 - openevolve.process_parallel - INFO - Iteration 8: Program 4c333346-2aef-4226-b32a-2de0dc113fe6 (parent: c99450b2-1b7d-43be-8d57-baa5a0538442) completed in 246.29s
+2026-01-20 10:32:03,543 - openevolve.process_parallel - INFO - Metrics: ssr=86.1900, randi=0.9598, nmi=0.8583, mae=0.1673, used_time=18.3843, combined_score=0.9598
+2026-01-20 10:32:03,606 - openevolve.database - INFO - Saved database with 13 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_5\checkpoints\checkpoint_10
+2026-01-20 10:32:03,621 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=86.1900, randi=0.9598, nmi=0.8583, mae=0.1673, used_time=18.3843, combined_score=0.9598
+2026-01-20 10:32:03,621 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_5\checkpoints\checkpoint_10
+2026-01-20 10:32:05,122 - openevolve.process_parallel - INFO - Stopped process pool
+2026-01-20 10:32:05,122 - openevolve.controller - INFO - Using tracked best program: 4c333346-2aef-4226-b32a-2de0dc113fe6
+2026-01-20 10:32:05,122 - openevolve.controller - INFO - Evolution complete. Best program has metrics: ssr=86.1900, randi=0.9598, nmi=0.8583, mae=0.1673, used_time=18.3843, combined_score=0.9598
+2026-01-20 10:32:05,122 - openevolve.controller - INFO - Saved best program to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_5\best\best_program.py with program info to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_5\best\best_program_info.json
+2026-01-20 10:32:05,591 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:07,482 - wikipediaapi - INFO - Wikipedia: language=en, user_agent: geoevolve (Wikipedia-API/0.8.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.WIKI
+2026-01-20 10:32:08,247 - wikipediaapi - INFO - Request URL: https://en.wikipedia.org/w/api.php?format=json&redirects=1&action=query&prop=info&titles=spatially constrained clustering with contiguity enforcement&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle|varianttitles
+2026-01-20 10:32:08,528 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=all%3Aspatially+constrained+clustering+with+contiguity+enforcement+OR+ti%3Aspatially+constrained+clustering+with+contiguity+enforcement+OR+abs%3Aspatially+constrained+clustering+with+contiguity+enforcement&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2026-01-20 10:32:12,406 - arxiv - INFO - Got first page: 100 of 339317 total results
+2026-01-20 10:32:13,125 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:19,344 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:20,094 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:25,407 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:26,688 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:26,688 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:26,688 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:26,688 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:26,703 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:27,250 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:27,313 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:27,469 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:27,610 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:27,766 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:29,094 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:29,360 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:29,391 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:29,969 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:30,860 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:30,875 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:31,485 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:31,532 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:32,375 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:32,751 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:34,001 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:34,407 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:35,283 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:35,689 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:37,017 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:38,892 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:48,846 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:49,909 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:49,909 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:49,909 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:49,925 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:49,925 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:32:50,581 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:50,675 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:50,800 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:50,815 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:51,034 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:52,128 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:52,238 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:52,331 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:52,331 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:53,144 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:53,175 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:53,925 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:53,941 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:54,535 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:54,660 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:55,004 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:55,160 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:55,660 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:32:56,707 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:03,434 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:05,934 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:25,723 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:26,801 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:33:26,817 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:33:26,895 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:33:26,910 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:33:27,114 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:33:27,442 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:27,567 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:27,614 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:27,692 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:27,739 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:29,348 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:29,364 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:29,754 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:30,098 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:30,786 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:31,504 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:31,551 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:32,473 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:32,989 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:33,098 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:33,223 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:33,582 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:34,364 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:34,395 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:36,536 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:33:45,364 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:34:03,542 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:34:11,595 - openevolve.controller - INFO - Logging to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_6\logs\openevolve_20260120_103411.log
+2026-01-20 10:34:11,611 - openevolve.controller - INFO - Set random seed to 42 for reproducibility
+2026-01-20 10:34:11,642 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 10:34:11,689 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 10:34:11,689 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-01-20 10:34:11,705 - openevolve.database - INFO - Initialized program database with 0 programs
+2026-01-20 10:34:11,705 - openevolve.evaluator - INFO - Successfully loaded evaluation function from ./examples/georegime/evaluator.py
+2026-01-20 10:34:11,705 - openevolve.evaluator - INFO - Initialized evaluator with ./examples/georegime/evaluator.py
+2026-01-20 10:34:11,705 - openevolve.controller - INFO - Initialized OpenEvolve with ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_5/best/best_program.py
+2026-01-20 10:34:11,736 - openevolve.controller - INFO - Adding initial program to database
+2026-01-20 10:35:12,353 - openevolve.evaluator - INFO - Evaluated program 7e0c4b5b-34d2-4c37-bad7-7b02dc4af0f9 in 60.62s: ssr=86.1900, randi=0.9598, nmi=0.8583, mae=0.1673, used_time=20.1848, combined_score=0.9598
+2026-01-20 10:35:12,353 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 5}
+2026-01-20 10:35:12,353 - openevolve.process_parallel - INFO - Initialized process parallel controller with 4 workers
+2026-01-20 10:35:12,353 - openevolve.process_parallel - INFO - Worker-to-island mapping: {0: 0, 1: 1, 2: 2, 3: 3}
+2026-01-20 10:35:12,369 - openevolve.process_parallel - INFO - Started process pool with 4 processes
+2026-01-20 10:35:12,369 - openevolve.controller - INFO - Using island-based evolution with 5 islands
+2026-01-20 10:35:12,369 - openevolve.database - INFO - Island Status:
+2026-01-20 10:35:12,369 - openevolve.database - INFO -  * Island 0: 1 programs, best=0.9598, avg=0.9598, diversity=0.00, gen=0 (best: 7e0c4b5b-34d2-4c37-bad7-7b02dc4af0f9)
+2026-01-20 10:35:12,369 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 10:35:12,369 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 10:35:12,369 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 10:35:12,384 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 10:35:12,384 - openevolve.process_parallel - INFO - Starting process-based evolution from iteration 1 for 10 iterations (total: 11)
+2026-01-20 10:35:13,056 - openevolve.process_parallel - INFO - Early stopping disabled
+2026-01-20 10:36:04,699 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 9}
+2026-01-20 10:36:04,699 - openevolve.process_parallel - INFO - Iteration 3: Program 1e0bf122-8098-4df4-8e9d-dc06317c3ebd (parent: 7e0c4b5b-34d2-4c37-bad7-7b02dc4af0f9) completed in 44.06s
+2026-01-20 10:36:04,699 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error=setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (20,) + inhomogeneous part.
+2026-01-20 10:37:04,809 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 9}
+2026-01-20 10:37:04,809 - openevolve.process_parallel - INFO - Iteration 1: Program f316611b-adaa-469c-ad82-52ea483f3c28 (parent: 7e0c4b5b-34d2-4c37-bad7-7b02dc4af0f9) completed in 104.17s
+2026-01-20 10:37:04,809 - openevolve.process_parallel - INFO - Metrics: ssr=96.7990, randi=0.9486, nmi=0.8292, mae=0.1858, used_time=19.2450, combined_score=0.9486
+2026-01-20 10:37:13,815 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 8}
+2026-01-20 10:37:13,846 - openevolve.process_parallel - INFO - Iteration 4: Program 063eb546-3366-42e2-a43f-4d89bb3c348e (parent: 7e0c4b5b-34d2-4c37-bad7-7b02dc4af0f9) completed in 113.18s
+2026-01-20 10:37:13,846 - openevolve.process_parallel - INFO - Metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=20.1351, combined_score=0.9651
+2026-01-20 10:38:38,315 - openevolve.process_parallel - INFO - Iteration 7: Program b4a82634-a443-4f6c-98ee-d644bc2bc1ac (parent: 7e0c4b5b-34d2-4c37-bad7-7b02dc4af0f9) completed in 84.50s
+2026-01-20 10:38:38,315 - openevolve.process_parallel - INFO - Metrics: ssr=141.6775, randi=0.9339, nmi=0.7902, mae=0.2453, used_time=12.5339, combined_score=0.9339
+2026-01-20 10:38:41,596 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 3}
+2026-01-20 10:38:41,596 - openevolve.process_parallel - INFO - Iteration 5: Program 4301fb02-22e0-463e-8214-5b84be61eb45 (parent: 7e0c4b5b-34d2-4c37-bad7-7b02dc4af0f9) completed in 156.90s
+2026-01-20 10:38:41,596 - openevolve.process_parallel - INFO - Metrics: ssr=72.9266, randi=0.9533, nmi=0.8461, mae=0.1586, used_time=21.5679, combined_score=0.9533
+2026-01-20 10:39:14,644 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 6, 'complexity': 8}
+2026-01-20 10:39:14,644 - openevolve.process_parallel - INFO - Iteration 2: Program 650b9bb5-1b70-4adf-b952-071e53acb0d2 (parent: 7e0c4b5b-34d2-4c37-bad7-7b02dc4af0f9) completed in 234.01s
+2026-01-20 10:39:14,644 - openevolve.process_parallel - INFO - Metrics: ssr=1007.5195, randi=0.6450, nmi=0.2328, mae=1.0960, used_time=20.8492, combined_score=0.6450
+2026-01-20 10:39:35,161 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 7}
+2026-01-20 10:39:35,161 - openevolve.process_parallel - INFO - Iteration 8: Program f2a3ef28-5638-42be-98f2-2ca09c09b37e (parent: 063eb546-3366-42e2-a43f-4d89bb3c348e) completed in 56.85s
+2026-01-20 10:39:35,161 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error=name 'spectral_init_zones' is not defined
+2026-01-20 10:40:21,683 - openevolve.process_parallel - INFO - Iteration 10: Program 3c6645bb-eb16-44f0-ac76-bb3442e9ec73 (parent: b4a82634-a443-4f6c-98ee-d644bc2bc1ac) completed in 67.04s
+2026-01-20 10:40:21,683 - openevolve.process_parallel - INFO - Metrics: ssr=141.6775, randi=0.9339, nmi=0.7902, mae=0.2453, used_time=12.3604, combined_score=0.9339
+2026-01-20 10:40:21,683 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 10
+2026-01-20 10:40:21,683 - openevolve.database - INFO - Island Status:
+2026-01-20 10:40:21,683 - openevolve.database - INFO -    Island 0: 9 programs, best=0.9651, avg=0.7044, diversity=473.38, gen=3 (best: 063eb546-3366-42e2-a43f-4d89bb3c348e)
+2026-01-20 10:40:21,683 - openevolve.database - INFO -  * Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=2
+2026-01-20 10:40:21,683 - openevolve.database - INFO -    Island 2: 1 programs, best=0.9598, avg=0.9598, diversity=0.00, gen=1
+2026-01-20 10:40:21,698 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 10:40:21,698 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 10:40:21,730 - openevolve.database - INFO - Saved database with 10 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_6\checkpoints\checkpoint_10
+2026-01-20 10:40:21,730 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=20.1351, combined_score=0.9651
+2026-01-20 10:40:21,730 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_6\checkpoints\checkpoint_10
+2026-01-20 10:40:43,716 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 7}
+2026-01-20 10:40:43,716 - openevolve.process_parallel - INFO - Iteration 9: Program 54afa258-85f9-4302-a9a0-820e8baf2d28 (parent: f316611b-adaa-469c-ad82-52ea483f3c28) completed in 122.12s
+2026-01-20 10:40:43,716 - openevolve.process_parallel - INFO - Metrics: ssr=96.7990, randi=0.9486, nmi=0.8292, mae=0.1858, used_time=21.9604, combined_score=0.9486
+2026-01-20 10:44:22,549 - openevolve.process_parallel - INFO - Iteration 6: Program b7e9f31a-97a9-4d96-8368-155ddbc49f07 (parent: c7321ecc-3996-4566-a9d6-46d0aed9f7fd) completed in 437.74s
+2026-01-20 10:44:22,549 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:44:22,627 - openevolve.database - INFO - Saved database with 12 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_6\checkpoints\checkpoint_10
+2026-01-20 10:44:22,627 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=20.1351, combined_score=0.9651
+2026-01-20 10:44:22,643 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_6\checkpoints\checkpoint_10
+2026-01-20 10:44:24,440 - openevolve.process_parallel - INFO - Stopped process pool
+2026-01-20 10:44:24,455 - openevolve.controller - INFO - Using tracked best program: 063eb546-3366-42e2-a43f-4d89bb3c348e
+2026-01-20 10:44:24,455 - openevolve.controller - INFO - Evolution complete. Best program has metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=20.1351, combined_score=0.9651
+2026-01-20 10:44:24,455 - openevolve.controller - INFO - Saved best program to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_6\best\best_program.py with program info to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_6\best\best_program_info.json
+2026-01-20 10:44:24,909 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:27,815 - wikipediaapi - INFO - Wikipedia: language=en, user_agent: geoevolve (Wikipedia-API/0.8.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.WIKI
+2026-01-20 10:44:27,815 - wikipediaapi - INFO - Request URL: https://en.wikipedia.org/w/api.php?format=json&redirects=1&action=query&prop=info&titles=spatially constrained clustering advanced algorithms&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle|varianttitles
+2026-01-20 10:44:28,033 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=all%3Aspatially+constrained+clustering+advanced+algorithms+OR+ti%3Aspatially+constrained+clustering+advanced+algorithms+OR+abs%3Aspatially+constrained+clustering+advanced+algorithms&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2026-01-20 10:44:30,386 - arxiv - INFO - Got first page: 100 of 677608 total results
+2026-01-20 10:44:31,011 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:44:34,857 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:44:35,420 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:44:39,656 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:40,458 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:44:40,513 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:44:40,513 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:44:40,529 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:44:40,545 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:44:41,060 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:41,201 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:41,326 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:41,341 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:41,420 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:43,013 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:43,638 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:43,748 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:44,232 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:44,513 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:45,154 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:46,060 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:46,060 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:46,263 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:47,138 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:47,310 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:47,763 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:48,232 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:50,154 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:51,690 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:44:55,829 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:20,829 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:22,218 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:45:22,218 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:45:22,234 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:45:22,234 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:45:22,251 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:45:22,879 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:22,972 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:23,004 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:23,004 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:23,066 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:23,639 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:23,717 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:23,873 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:24,248 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:24,373 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:24,764 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:25,123 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:25,545 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:26,123 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:26,436 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:27,514 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:29,514 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:30,827 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:32,577 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:33,342 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:35,514 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:56,351 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:57,218 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:45:57,218 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:45:57,218 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:45:57,280 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:45:57,311 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:45:57,811 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:57,889 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:57,983 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:57,999 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:58,139 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:58,561 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:58,593 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:58,655 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:58,811 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:58,858 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:59,186 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:59,202 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:59,218 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:59,546 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:59,811 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:45:59,905 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:46:00,144 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:46:01,351 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:46:01,508 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:46:02,914 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:46:05,117 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:46:40,458 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:46:48,864 - openevolve.controller - INFO - Logging to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_7\logs\openevolve_20260120_104648.log
+2026-01-20 10:46:48,880 - openevolve.controller - INFO - Set random seed to 42 for reproducibility
+2026-01-20 10:46:48,911 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 10:46:48,958 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 10:46:48,958 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-01-20 10:46:48,974 - openevolve.database - INFO - Initialized program database with 0 programs
+2026-01-20 10:46:48,974 - openevolve.evaluator - INFO - Successfully loaded evaluation function from ./examples/georegime/evaluator.py
+2026-01-20 10:46:48,974 - openevolve.evaluator - INFO - Initialized evaluator with ./examples/georegime/evaluator.py
+2026-01-20 10:46:48,974 - openevolve.controller - INFO - Initialized OpenEvolve with ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_6/best/best_program.py
+2026-01-20 10:46:49,005 - openevolve.controller - INFO - Adding initial program to database
+2026-01-20 10:47:49,738 - openevolve.evaluator - INFO - Evaluated program 67d56d68-1b02-4819-92b0-0f27b8971779 in 60.73s: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=20.2340, combined_score=0.9651
+2026-01-20 10:47:49,738 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 5}
+2026-01-20 10:47:49,738 - openevolve.process_parallel - INFO - Initialized process parallel controller with 4 workers
+2026-01-20 10:47:49,738 - openevolve.process_parallel - INFO - Worker-to-island mapping: {0: 0, 1: 1, 2: 2, 3: 3}
+2026-01-20 10:47:49,754 - openevolve.process_parallel - INFO - Started process pool with 4 processes
+2026-01-20 10:47:49,754 - openevolve.controller - INFO - Using island-based evolution with 5 islands
+2026-01-20 10:47:49,754 - openevolve.database - INFO - Island Status:
+2026-01-20 10:47:49,754 - openevolve.database - INFO -  * Island 0: 1 programs, best=0.9651, avg=0.9651, diversity=0.00, gen=0 (best: 67d56d68-1b02-4819-92b0-0f27b8971779)
+2026-01-20 10:47:49,754 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 10:47:49,754 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 10:47:49,754 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 10:47:49,769 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 10:47:49,769 - openevolve.process_parallel - INFO - Starting process-based evolution from iteration 1 for 10 iterations (total: 11)
+2026-01-20 10:47:50,457 - openevolve.process_parallel - INFO - Early stopping disabled
+2026-01-20 10:52:26,964 - openevolve.process_parallel - WARNING - Iteration 4 error: LLM generation failed: 
+2026-01-20 10:52:57,012 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 9}
+2026-01-20 10:52:57,012 - openevolve.process_parallel - INFO - Iteration 3: Program f7ef8762-0493-49b5-baa7-e135733355be (parent: 67d56d68-1b02-4819-92b0-0f27b8971779) completed in 299.41s
+2026-01-20 10:52:57,012 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:53:31,434 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 9}
+2026-01-20 10:53:31,434 - openevolve.process_parallel - INFO - Iteration 1: Program c0ef3645-6062-42e3-a223-6151fc7ec6de (parent: 67d56d68-1b02-4819-92b0-0f27b8971779) completed in 333.83s
+2026-01-20 10:53:31,434 - openevolve.process_parallel - INFO - Metrics: ssr=79.5692, randi=0.9581, nmi=0.8509, mae=0.1980, used_time=26.7546, combined_score=0.9581
+2026-01-20 10:53:47,384 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 6}
+2026-01-20 10:53:47,391 - openevolve.process_parallel - INFO - Iteration 2: Program 321bd4cc-a468-4d94-9532-9b1a5e5c58d3 (parent: 67d56d68-1b02-4819-92b0-0f27b8971779) completed in 349.78s
+2026-01-20 10:53:47,398 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:55:10,310 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 3}
+2026-01-20 10:55:10,347 - openevolve.process_parallel - INFO - Iteration 6: Program 1382619b-ea45-4cc8-b648-ddf344eab0f6 (parent: ebe1202f-e80d-453e-b830-94da859e4806) completed in 133.31s
+2026-01-20 10:55:10,377 - openevolve.process_parallel - INFO - Metrics: ssr=80.6311, randi=0.9580, nmi=0.8567, mae=0.1673, used_time=30.6097, combined_score=0.9580
+2026-01-20 10:56:48,061 - openevolve.process_parallel - INFO - Iteration 5: Program b8a0c333-a71d-4544-9999-8e7ea4e68d0a (parent: 67d56d68-1b02-4819-92b0-0f27b8971779) completed in 261.09s
+2026-01-20 10:56:48,080 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:57:06,821 - openevolve.process_parallel - INFO - Iteration 8: Program fae2f922-2cf3-4edc-870b-386b0026c8f1 (parent: c0ef3645-6062-42e3-a223-6151fc7ec6de) completed in 199.42s
+2026-01-20 10:57:06,843 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:57:13,125 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 4}
+2026-01-20 10:57:13,134 - openevolve.process_parallel - INFO - Iteration 10: Program 9a0f5798-5466-4f5d-a6e9-0b54a4d1c815 (parent: 1382619b-ea45-4cc8-b648-ddf344eab0f6) completed in 25.07s
+2026-01-20 10:57:13,146 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error=run_kmodels() got an unexpected keyword argument 'init_method'
+2026-01-20 10:57:13,154 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 10
+2026-01-20 10:57:13,187 - openevolve.database - INFO - Island Status:
+2026-01-20 10:57:13,190 - openevolve.database - INFO -  * Island 0: 6 programs, best=0.9651, avg=0.6539, diversity=432.35, gen=3 (best: 67d56d68-1b02-4819-92b0-0f27b8971779)
+2026-01-20 10:57:13,203 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 10:57:13,208 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 10:57:13,211 - openevolve.database - INFO -    Island 3: 3 programs, best=0.9651, avg=0.6410, diversity=233.13, gen=1 (best: 1382619b-ea45-4cc8-b648-ddf344eab0f6)
+2026-01-20 10:57:13,213 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 10:57:13,270 - openevolve.database - INFO - Saved database with 9 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_7\checkpoints\checkpoint_10
+2026-01-20 10:57:13,276 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=20.2340, combined_score=0.9651
+2026-01-20 10:57:13,278 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_7\checkpoints\checkpoint_10
+2026-01-20 10:57:34,517 - openevolve.process_parallel - INFO - Iteration 7: Program b4f6869a-3a97-4ad1-bc61-e4156a60f6b5 (parent: 67d56d68-1b02-4819-92b0-0f27b8971779) completed in 243.08s
+2026-01-20 10:57:34,520 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:57:35,971 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 6}
+2026-01-20 10:57:35,974 - openevolve.process_parallel - INFO - Iteration 9: Program d7854a0c-3bec-4755-9e28-0a7d5718e741 (parent: 321bd4cc-a468-4d94-9532-9b1a5e5c58d3) completed in 145.64s
+2026-01-20 10:57:35,976 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 10:57:36,048 - openevolve.database - INFO - Saved database with 11 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_7\checkpoints\checkpoint_10
+2026-01-20 10:57:36,052 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=20.2340, combined_score=0.9651
+2026-01-20 10:57:36,054 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_7\checkpoints\checkpoint_10
+2026-01-20 10:57:37,998 - openevolve.process_parallel - INFO - Stopped process pool
+2026-01-20 10:57:38,002 - openevolve.controller - INFO - Using tracked best program: 67d56d68-1b02-4819-92b0-0f27b8971779
+2026-01-20 10:57:38,010 - openevolve.controller - INFO - Evolution complete. Best program has metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=20.2340, combined_score=0.9651
+2026-01-20 10:57:38,018 - openevolve.controller - INFO - Saved best program to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_7\best\best_program.py with program info to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_7\best\best_program_info.json
+2026-01-20 10:57:38,415 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:57:39,815 - wikipediaapi - INFO - Wikipedia: language=en, user_agent: geoevolve (Wikipedia-API/0.8.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.WIKI
+2026-01-20 10:57:39,849 - wikipediaapi - INFO - Request URL: https://en.wikipedia.org/w/api.php?format=json&redirects=1&action=query&prop=info&titles=region shape quality metrics&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle|varianttitles
+2026-01-20 10:57:40,122 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=all%3Aregion+shape+quality+metrics+OR+ti%3Aregion+shape+quality+metrics+OR+abs%3Aregion+shape+quality+metrics&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2026-01-20 10:57:42,583 - arxiv - INFO - Got first page: 100 of 479848 total results
+2026-01-20 10:57:43,643 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:57:56,433 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:58:03,706 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:58:11,100 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:12,422 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:58:12,439 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:58:12,440 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:58:12,445 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:58:12,453 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:58:13,026 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:13,147 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:13,159 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:13,209 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:13,304 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:14,663 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:14,940 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:14,989 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:15,150 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:15,177 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:16,679 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:16,775 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:17,504 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:17,543 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:18,065 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:18,257 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:18,754 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:19,453 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:19,871 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:20,422 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:21,992 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:44,140 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:44,997 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:58:44,998 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:58:45,011 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:58:45,037 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:58:45,039 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:58:45,738 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:45,797 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:45,800 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:45,878 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:45,908 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:46,806 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:47,100 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:47,156 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:47,343 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:48,193 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:48,258 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:48,318 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:48,886 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:49,130 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:49,215 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:49,446 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:49,734 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:49,970 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:51,425 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:52,037 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:58:52,793 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:28,199 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:29,612 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:59:29,631 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:59:29,725 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:59:29,730 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:59:29,735 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 10:59:30,324 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:30,409 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:30,468 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:30,496 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:30,518 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:32,088 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:32,194 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:32,573 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:33,102 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:33,445 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:33,462 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:33,826 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:34,182 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:34,655 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:35,093 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:35,283 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:36,696 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:37,146 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:37,293 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:37,836 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:40,990 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 10:59:59,130 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:00:05,812 - openevolve.controller - INFO - Logging to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_8\logs\openevolve_20260120_110005.log
+2026-01-20 11:00:05,827 - openevolve.controller - INFO - Set random seed to 42 for reproducibility
+2026-01-20 11:00:05,900 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 11:00:05,939 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 11:00:05,953 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-01-20 11:00:05,955 - openevolve.database - INFO - Initialized program database with 0 programs
+2026-01-20 11:00:05,964 - openevolve.evaluator - INFO - Successfully loaded evaluation function from ./examples/georegime/evaluator.py
+2026-01-20 11:00:05,967 - openevolve.evaluator - INFO - Initialized evaluator with ./examples/georegime/evaluator.py
+2026-01-20 11:00:05,969 - openevolve.controller - INFO - Initialized OpenEvolve with ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_7/best/best_program.py
+2026-01-20 11:00:05,998 - openevolve.controller - INFO - Adding initial program to database
+2026-01-20 11:01:40,596 - openevolve.evaluator - INFO - Evaluated program bdfcfd11-f7a5-4816-9fe1-13a922a08f5b in 94.60s: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=31.5065, combined_score=0.9651
+2026-01-20 11:01:40,599 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 5}
+2026-01-20 11:01:40,602 - openevolve.process_parallel - INFO - Initialized process parallel controller with 4 workers
+2026-01-20 11:01:40,605 - openevolve.process_parallel - INFO - Worker-to-island mapping: {0: 0, 1: 1, 2: 2, 3: 3}
+2026-01-20 11:01:40,637 - openevolve.process_parallel - INFO - Started process pool with 4 processes
+2026-01-20 11:01:40,639 - openevolve.controller - INFO - Using island-based evolution with 5 islands
+2026-01-20 11:01:40,641 - openevolve.database - INFO - Island Status:
+2026-01-20 11:01:40,643 - openevolve.database - INFO -  * Island 0: 1 programs, best=0.9651, avg=0.9651, diversity=0.00, gen=0 (best: bdfcfd11-f7a5-4816-9fe1-13a922a08f5b)
+2026-01-20 11:01:40,645 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:01:40,647 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:01:40,649 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:01:40,652 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:01:40,654 - openevolve.process_parallel - INFO - Starting process-based evolution from iteration 1 for 10 iterations (total: 11)
+2026-01-20 11:01:42,081 - openevolve.process_parallel - INFO - Early stopping disabled
+2026-01-20 11:03:09,989 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 9}
+2026-01-20 11:03:09,992 - openevolve.process_parallel - INFO - Iteration 4: Program bbf56261-152d-4456-b454-9c3665119961 (parent: bdfcfd11-f7a5-4816-9fe1-13a922a08f5b) completed in 75.70s
+2026-01-20 11:03:09,993 - openevolve.process_parallel - INFO - Metrics: ssr=961.7289, randi=0.4430, nmi=0.2512, mae=1.0918, used_time=6.4051, combined_score=0.4430
+2026-01-20 11:04:01,554 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 9}
+2026-01-20 11:04:01,557 - openevolve.process_parallel - INFO - Iteration 2: Program 984dc3ec-14f6-4176-be7b-62b9febb275a (parent: bdfcfd11-f7a5-4816-9fe1-13a922a08f5b) completed in 127.29s
+2026-01-20 11:04:01,561 - openevolve.process_parallel - INFO - Metrics: ssr=75.6920, randi=0.9581, nmi=0.8549, mae=0.1608, used_time=23.0914, combined_score=0.9581
+2026-01-20 11:04:03,425 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 8}
+2026-01-20 11:04:03,427 - openevolve.process_parallel - INFO - Iteration 1: Program c29cf9cd-3efa-40d7-91bb-c2e69a67341c (parent: bdfcfd11-f7a5-4816-9fe1-13a922a08f5b) completed in 129.15s
+2026-01-20 11:04:03,429 - openevolve.process_parallel - INFO - Metrics: ssr=125.6060, randi=0.9460, nmi=0.8258, mae=0.2064, used_time=22.8750, combined_score=0.9460
+2026-01-20 11:04:42,234 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 1, 'complexity': 9}
+2026-01-20 11:04:42,237 - openevolve.process_parallel - INFO - Iteration 3: Program 8f81f312-fc2f-4d36-8334-97d63ed8823b (parent: bdfcfd11-f7a5-4816-9fe1-13a922a08f5b) completed in 167.96s
+2026-01-20 11:04:42,239 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 11:06:18,566 - openevolve.process_parallel - INFO - Iteration 8: Program 0cb3a46d-d485-4cb7-84d1-f3ed5cbbb5e5 (parent: c29cf9cd-3efa-40d7-91bb-c2e69a67341c) completed in 96.32s
+2026-01-20 11:06:18,569 - openevolve.process_parallel - INFO - Metrics: ssr=125.6060, randi=0.9460, nmi=0.8258, mae=0.2064, used_time=25.2723, combined_score=0.9460
+2026-01-20 11:06:20,729 - openevolve.database - INFO - MAP-Elites cell improved: {'score': 9, 'complexity': 8} (fitness: 0.946 -> 0.963)
+2026-01-20 11:06:20,732 - openevolve.process_parallel - INFO - Iteration 7: Program 91a43882-c186-48f1-a31b-f4de75175743 (parent: bbf56261-152d-4456-b454-9c3665119961) completed in 137.31s
+2026-01-20 11:06:20,733 - openevolve.process_parallel - INFO - Metrics: ssr=74.6421, randi=0.9627, nmi=0.8712, mae=0.1473, used_time=31.4665, combined_score=0.9627
+2026-01-20 11:07:00,329 - openevolve.process_parallel - INFO - Iteration 6: Program 3fb8ea45-cdd0-46b8-87d4-31992962b8e8 (parent: c2930b45-5ad2-438b-8fa2-a353f8e8bec4) completed in 178.77s
+2026-01-20 11:07:00,331 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 11:09:17,932 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 1, 'complexity': 0}
+2026-01-20 11:09:17,932 - openevolve.process_parallel - INFO - Iteration 9: Program f299bab7-646d-4571-bff5-913e0db197ba (parent: c2930b45-5ad2-438b-8fa2-a353f8e8bec4) completed in 179.36s
+2026-01-20 11:09:17,932 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 11:11:02,436 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 1, 'complexity': 7}
+2026-01-20 11:11:02,438 - openevolve.process_parallel - INFO - Iteration 10: Program 29d811b5-1ea4-41df-95a4-f586f9f2f086 (parent: bbf56261-152d-4456-b454-9c3665119961) completed in 281.70s
+2026-01-20 11:11:02,445 - openevolve.process_parallel - INFO - Metrics: ssr=853.2344, randi=0.4984, nmi=0.3299, mae=0.9783, used_time=9.1447, combined_score=0.4984
+2026-01-20 11:11:02,448 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 10
+2026-01-20 11:11:02,457 - openevolve.database - INFO - Island Status:
+2026-01-20 11:11:02,459 - openevolve.database - INFO -    Island 0: 8 programs, best=0.9651, avg=0.7774, diversity=97.48, gen=2 (best: bdfcfd11-f7a5-4816-9fe1-13a922a08f5b)
+2026-01-20 11:11:02,461 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=3
+2026-01-20 11:11:02,463 - openevolve.database - INFO -  * Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=2
+2026-01-20 11:11:02,465 - openevolve.database - INFO -    Island 3: 3 programs, best=0.9651, avg=0.6550, diversity=387.20, gen=1 (best: 3fb8ea45-cdd0-46b8-87d4-31992962b8e8)
+2026-01-20 11:11:02,467 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 11:11:02,565 - openevolve.database - INFO - Saved database with 11 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_8\checkpoints\checkpoint_10
+2026-01-20 11:11:02,573 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=31.5065, combined_score=0.9651
+2026-01-20 11:11:02,579 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_8\checkpoints\checkpoint_10
+2026-01-20 11:11:37,741 - openevolve.process_parallel - INFO - Iteration 5: Program 6c06db4a-a728-44d2-ae5b-42a35b2e525b (parent: bdfcfd11-f7a5-4816-9fe1-13a922a08f5b) completed in 507.76s
+2026-01-20 11:11:37,744 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 11:11:37,892 - openevolve.database - INFO - Saved database with 12 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_8\checkpoints\checkpoint_10
+2026-01-20 11:11:37,897 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=31.5065, combined_score=0.9651
+2026-01-20 11:11:37,900 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_8\checkpoints\checkpoint_10
+2026-01-20 11:11:41,217 - openevolve.process_parallel - INFO - Stopped process pool
+2026-01-20 11:11:41,220 - openevolve.controller - INFO - Using tracked best program: bdfcfd11-f7a5-4816-9fe1-13a922a08f5b
+2026-01-20 11:11:41,232 - openevolve.controller - INFO - Evolution complete. Best program has metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=31.5065, combined_score=0.9651
+2026-01-20 11:11:41,246 - openevolve.controller - INFO - Saved best program to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_8\best\best_program.py with program info to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_8\best\best_program_info.json
+2026-01-20 11:11:41,816 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:11:58,113 - wikipediaapi - INFO - Wikipedia: language=en, user_agent: geoevolve (Wikipedia-API/0.8.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.WIKI
+2026-01-20 11:11:58,116 - wikipediaapi - INFO - Request URL: https://en.wikipedia.org/w/api.php?format=json&redirects=1&action=query&prop=info&titles=spatially constrained clustering with contiguity constraints&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle|varianttitles
+2026-01-20 11:11:58,358 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=all%3Aspatially+constrained+clustering+with+contiguity+constraints+OR+ti%3Aspatially+constrained+clustering+with+contiguity+constraints+OR+abs%3Aspatially+constrained+clustering+with+contiguity+constraints&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2026-01-20 11:12:02,191 - arxiv - INFO - Got first page: 100 of 439812 total results
+2026-01-20 11:12:03,450 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:11,579 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:16,574 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:17,666 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:18,501 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:18,501 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:18,509 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:18,519 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:18,659 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:19,314 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:19,317 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:19,407 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:19,452 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:19,462 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:19,923 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:20,600 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:21,098 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:21,351 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:21,550 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:21,725 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:21,773 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:22,841 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:23,463 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:23,732 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:24,287 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:24,397 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:25,136 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:26,151 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:26,862 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:35,309 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:45,751 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:46,646 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:46,650 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:46,658 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:46,662 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:46,664 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:12:47,243 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:47,279 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:47,370 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:47,445 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:47,480 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:49,210 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:49,392 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:49,396 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:49,625 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:49,730 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:50,879 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:51,360 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:52,004 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:52,399 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:52,607 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:53,251 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:54,112 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:54,155 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:54,541 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:12:56,127 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:00,746 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:14,473 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:15,450 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:13:15,450 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:13:15,547 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:13:15,551 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:13:15,560 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:13:15,980 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:16,206 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:16,248 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:16,352 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:16,457 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:16,592 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:16,854 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:16,897 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:17,536 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:17,612 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:17,670 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:18,031 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:18,136 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:18,236 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:18,268 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:19,311 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:19,552 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:20,878 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:21,485 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:23,062 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:25,240 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:42,337 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:13:55,103 - openevolve.controller - INFO - Logging to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_9\logs\openevolve_20260120_111355.log
+2026-01-20 11:13:55,106 - openevolve.controller - INFO - Set random seed to 42 for reproducibility
+2026-01-20 11:13:55,140 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 11:13:55,174 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 11:13:55,186 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-01-20 11:13:55,189 - openevolve.database - INFO - Initialized program database with 0 programs
+2026-01-20 11:13:55,192 - openevolve.evaluator - INFO - Successfully loaded evaluation function from ./examples/georegime/evaluator.py
+2026-01-20 11:13:55,195 - openevolve.evaluator - INFO - Initialized evaluator with ./examples/georegime/evaluator.py
+2026-01-20 11:13:55,198 - openevolve.controller - INFO - Initialized OpenEvolve with ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_8/best/best_program.py
+2026-01-20 11:13:55,219 - openevolve.controller - INFO - Adding initial program to database
+2026-01-20 11:15:28,974 - openevolve.evaluator - INFO - Evaluated program e4f398bc-aa67-498e-b376-1354c64a83df in 93.75s: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=31.2386, combined_score=0.9651
+2026-01-20 11:15:28,981 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 5}
+2026-01-20 11:15:28,993 - openevolve.process_parallel - INFO - Initialized process parallel controller with 4 workers
+2026-01-20 11:15:28,996 - openevolve.process_parallel - INFO - Worker-to-island mapping: {0: 0, 1: 1, 2: 2, 3: 3}
+2026-01-20 11:15:29,017 - openevolve.process_parallel - INFO - Started process pool with 4 processes
+2026-01-20 11:15:29,020 - openevolve.controller - INFO - Using island-based evolution with 5 islands
+2026-01-20 11:15:29,022 - openevolve.database - INFO - Island Status:
+2026-01-20 11:15:29,024 - openevolve.database - INFO -  * Island 0: 1 programs, best=0.9651, avg=0.9651, diversity=0.00, gen=0 (best: e4f398bc-aa67-498e-b376-1354c64a83df)
+2026-01-20 11:15:29,027 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:15:29,029 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:15:29,031 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:15:29,033 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:15:29,035 - openevolve.process_parallel - INFO - Starting process-based evolution from iteration 1 for 10 iterations (total: 11)
+2026-01-20 11:15:30,715 - openevolve.process_parallel - INFO - Early stopping disabled
+2026-01-20 11:16:30,674 - openevolve.process_parallel - WARNING - Iteration 2 error: Generated code exceeds maximum length (25502 > 25000)
+2026-01-20 11:17:22,367 - openevolve.process_parallel - WARNING - Iteration 5 error: Generated code exceeds maximum length (27207 > 25000)
+2026-01-20 11:17:22,778 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 9}
+2026-01-20 11:17:22,781 - openevolve.process_parallel - INFO - Iteration 1: Program 8047ce81-ff26-40d6-8b13-0409c7068c05 (parent: e4f398bc-aa67-498e-b376-1354c64a83df) completed in 96.62s
+2026-01-20 11:17:22,784 - openevolve.process_parallel - INFO - Metrics: ssr=79.4173, randi=0.9545, nmi=0.8493, mae=0.1686, used_time=16.5174, combined_score=0.9545
+2026-01-20 11:18:07,436 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 3}
+2026-01-20 11:18:07,436 - openevolve.process_parallel - INFO - Iteration 6: Program d39cd432-6fb4-4140-8be8-b62c7199860b (parent: d965f93e-1814-4275-89a5-2e54ca680eae) completed in 45.06s
+2026-01-20 11:18:07,436 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error=index 25 is out of bounds for axis 0 with size 18
+2026-01-20 11:18:59,091 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 9}
+2026-01-20 11:18:59,091 - openevolve.process_parallel - INFO - Iteration 4: Program ac88ab1e-3521-43a4-9277-fb2b8b4d59c6 (parent: e4f398bc-aa67-498e-b376-1354c64a83df) completed in 192.96s
+2026-01-20 11:18:59,091 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 11:19:13,624 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 9}
+2026-01-20 11:19:13,627 - openevolve.process_parallel - INFO - Iteration 8: Program 2785436c-b82d-4bca-aed6-3d9d9d4f48e8 (parent: 8047ce81-ff26-40d6-8b13-0409c7068c05) completed in 66.19s
+2026-01-20 11:19:13,629 - openevolve.process_parallel - INFO - Metrics: ssr=102.7064, randi=0.9499, nmi=0.8289, mae=0.1889, used_time=11.1839, combined_score=0.9499
+2026-01-20 11:19:18,936 - openevolve.process_parallel - INFO - Iteration 3: Program 3cd418ec-a05c-4b04-b2d2-1dbd3de6a17d (parent: e4f398bc-aa67-498e-b376-1354c64a83df) completed in 212.81s
+2026-01-20 11:19:18,936 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 11:19:50,029 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 7}
+2026-01-20 11:19:50,029 - openevolve.process_parallel - INFO - Iteration 7: Program ac27c4ab-eb6b-4a5e-9b1f-538fba8b8c4c (parent: e4f398bc-aa67-498e-b376-1354c64a83df) completed in 147.25s
+2026-01-20 11:19:50,029 - openevolve.process_parallel - INFO - Metrics: ssr=171.0223, randi=0.9222, nmi=0.7868, mae=0.3196, used_time=30.8930, combined_score=0.9222
+2026-01-20 11:19:50,701 - openevolve.process_parallel - WARNING - Iteration 9 error: Generated code exceeds maximum length (25244 > 25000)
+2026-01-20 11:20:43,046 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 1}
+2026-01-20 11:20:43,046 - openevolve.process_parallel - INFO - Iteration 10: Program b4a67ffb-a571-443b-9f41-ba393c41c492 (parent: e4f398bc-aa67-498e-b376-1354c64a83df) completed in 89.42s
+2026-01-20 11:20:43,046 - openevolve.process_parallel - INFO - Metrics: ssr=76.0554, randi=0.9626, nmi=0.8711, mae=0.1507, used_time=24.2606, combined_score=0.9626
+2026-01-20 11:20:43,046 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 10
+2026-01-20 11:20:43,063 - openevolve.database - INFO - Island Status:
+2026-01-20 11:20:43,065 - openevolve.database - INFO -    Island 0: 7 programs, best=0.9651, avg=0.8221, diversity=247.10, gen=2 (best: e4f398bc-aa67-498e-b376-1354c64a83df)
+2026-01-20 11:20:43,067 - openevolve.database - INFO -  * Island 1: 2 programs, best=0.9651, avg=0.4826, diversity=150.60, gen=2 (best: d39cd432-6fb4-4140-8be8-b62c7199860b)
+2026-01-20 11:20:43,070 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 11:20:43,072 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 11:20:43,074 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 11:20:43,092 - openevolve.database - INFO - Saved database with 9 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_9\checkpoints\checkpoint_10
+2026-01-20 11:20:43,107 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=31.2386, combined_score=0.9651
+2026-01-20 11:20:43,107 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_9\checkpoints\checkpoint_10
+2026-01-20 11:20:43,176 - openevolve.database - INFO - Saved database with 9 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_9\checkpoints\checkpoint_10
+2026-01-20 11:20:43,181 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=31.2386, combined_score=0.9651
+2026-01-20 11:20:43,183 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_9\checkpoints\checkpoint_10
+2026-01-20 11:20:45,927 - openevolve.process_parallel - INFO - Stopped process pool
+2026-01-20 11:20:45,952 - openevolve.controller - INFO - Using tracked best program: e4f398bc-aa67-498e-b376-1354c64a83df
+2026-01-20 11:20:45,965 - openevolve.controller - INFO - Evolution complete. Best program has metrics: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=31.2386, combined_score=0.9651
+2026-01-20 11:20:45,975 - openevolve.controller - INFO - Saved best program to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_9\best\best_program.py with program info to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_9\best\best_program_info.json
+2026-01-20 11:20:46,429 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:20:57,342 - wikipediaapi - INFO - Wikipedia: language=en, user_agent: geoevolve (Wikipedia-API/0.8.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.WIKI
+2026-01-20 11:20:57,357 - wikipediaapi - INFO - Request URL: https://en.wikipedia.org/w/api.php?format=json&redirects=1&action=query&prop=info&titles=spatially constrained clustering with strong contiguity enforcement&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle|varianttitles
+2026-01-20 11:20:57,577 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=all%3Aspatially+constrained+clustering+with+strong+contiguity+enforcement+OR+ti%3Aspatially+constrained+clustering+with+strong+contiguity+enforcement+OR+abs%3Aspatially+constrained+clustering+with+strong+contiguity+enforcement&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2026-01-20 11:21:01,798 - arxiv - INFO - Got first page: 100 of 505637 total results
+2026-01-20 11:21:02,655 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:08,327 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:09,296 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:13,280 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:14,092 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:14,154 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:14,154 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:14,154 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:14,154 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:14,687 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:14,873 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:14,952 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:14,965 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:15,107 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:15,842 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:16,748 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:16,748 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:16,873 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:17,357 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:17,607 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:18,030 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:18,530 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:19,280 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:19,860 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:20,385 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:20,655 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:21,357 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:22,123 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:22,935 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:32,249 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:44,801 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:45,795 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:45,795 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:45,810 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:45,826 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:45,826 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:21:46,498 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:46,550 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:46,561 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:46,643 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:46,665 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:48,264 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:48,341 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:48,529 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:49,232 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:50,498 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:50,748 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:50,826 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:51,170 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:51,591 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:52,419 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:52,591 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:53,030 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:53,531 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:54,451 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:54,608 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:21:57,592 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:07,952 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:09,108 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:22:09,108 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:22:09,123 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:22:09,139 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:22:09,218 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-20 11:22:09,734 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:09,842 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:09,905 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:09,905 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:10,796 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:10,814 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:10,819 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:11,346 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:11,420 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:11,530 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:11,904 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:11,983 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:12,170 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:12,500 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:12,687 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:12,783 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:13,202 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:13,264 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:13,484 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:14,233 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:14,891 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:22:40,608 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-20 11:23:14,873 - openevolve.controller - INFO - Logging to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\logs\openevolve_20260120_112314.log
+2026-01-20 11:23:14,889 - openevolve.controller - INFO - Set random seed to 42 for reproducibility
+2026-01-20 11:23:14,920 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 11:23:14,951 - openevolve.llm.ensemble - INFO - Initialized LLM ensemble with models: openai/gpt-4o (weight: 0.80), openai/gpt-4.1 (weight: 0.20)
+2026-01-20 11:23:14,951 - openevolve.prompt.sampler - INFO - Set custom templates: system=evaluator_system_message, user=None
+2026-01-20 11:23:14,967 - openevolve.database - INFO - Initialized program database with 0 programs
+2026-01-20 11:23:14,967 - openevolve.evaluator - INFO - Successfully loaded evaluation function from ./examples/georegime/evaluator.py
+2026-01-20 11:23:14,967 - openevolve.evaluator - INFO - Initialized evaluator with ./examples/georegime/evaluator.py
+2026-01-20 11:23:14,967 - openevolve.controller - INFO - Initialized OpenEvolve with ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_9/best/best_program.py
+2026-01-20 11:23:15,001 - openevolve.controller - INFO - Adding initial program to database
+2026-01-20 11:24:11,137 - openevolve.evaluator - INFO - Evaluated program 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829 in 56.13s: ssr=75.9738, randi=0.9651, nmi=0.8758, mae=0.1588, used_time=18.7030, combined_score=0.9651
+2026-01-20 11:24:11,140 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 5}
+2026-01-20 11:24:11,140 - openevolve.process_parallel - INFO - Initialized process parallel controller with 4 workers
+2026-01-20 11:24:11,140 - openevolve.process_parallel - INFO - Worker-to-island mapping: {0: 0, 1: 1, 2: 2, 3: 3}
+2026-01-20 11:24:11,155 - openevolve.process_parallel - INFO - Started process pool with 4 processes
+2026-01-20 11:24:11,155 - openevolve.controller - INFO - Using island-based evolution with 5 islands
+2026-01-20 11:24:11,155 - openevolve.database - INFO - Island Status:
+2026-01-20 11:24:11,155 - openevolve.database - INFO -  * Island 0: 1 programs, best=0.9651, avg=0.9651, diversity=0.00, gen=0 (best: 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829)
+2026-01-20 11:24:11,155 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:24:11,171 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:24:11,171 - openevolve.database - INFO -    Island 3: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:24:11,171 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=0
+2026-01-20 11:24:11,171 - openevolve.process_parallel - INFO - Starting process-based evolution from iteration 1 for 10 iterations (total: 11)
+2026-01-20 11:24:11,858 - openevolve.process_parallel - INFO - Early stopping disabled
+2026-01-20 11:24:59,452 - openevolve.process_parallel - WARNING - Iteration 4 error: Generated code exceeds maximum length (25144 > 25000)
+2026-01-20 11:25:09,567 - openevolve.process_parallel - WARNING - Iteration 2 error: Generated code exceeds maximum length (25029 > 25000)
+2026-01-20 11:25:13,734 - openevolve.process_parallel - WARNING - Iteration 3 error: Generated code exceeds maximum length (26276 > 25000)
+2026-01-20 11:25:17,749 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 0, 'complexity': 9}
+2026-01-20 11:25:17,751 - openevolve.process_parallel - INFO - Iteration 1: Program 816e6657-11ab-4359-a316-a3d381364a4c (parent: 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829) completed in 59.38s
+2026-01-20 11:25:17,754 - openevolve.process_parallel - INFO - Metrics: ssr=222.5469, randi=0.9080, nmi=0.7417, mae=0.3342, used_time=6.2971, combined_score=0.9080
+2026-01-20 11:25:43,498 - openevolve.process_parallel - INFO - Iteration 8: Program a9164a69-3ead-4e67-8530-b16d8c1d3f2a (parent: 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829) completed in 25.76s
+2026-01-20 11:25:43,500 - openevolve.process_parallel - INFO - Metrics: ssr=0.0000, randi=0.0000, nmi=0.0000, mae=0.0000, used_time=0.0000, combined_score=0.0000, error=boolean index did not match indexed array along dimension 0; dimension is 625 but corresponding boolean dimension is 15
+2026-01-20 11:26:24,248 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 9}
+2026-01-20 11:26:24,248 - openevolve.process_parallel - INFO - Iteration 9: Program 1f146946-d114-4015-9f09-1d2e3b0b09ee (parent: 816e6657-11ab-4359-a316-a3d381364a4c) completed in 40.73s
+2026-01-20 11:26:24,248 - openevolve.process_parallel - INFO - Metrics: ssr=157.7947, randi=0.9367, nmi=0.8025, mae=0.2200, used_time=9.6878, combined_score=0.9367
+2026-01-20 11:26:45,452 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 9, 'complexity': 8}
+2026-01-20 11:26:45,499 - openevolve.process_parallel - INFO - Iteration 5: Program afbc6168-76b0-4ed7-bd0d-68647b3dd288 (parent: 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829) completed in 106.00s
+2026-01-20 11:26:45,499 - openevolve.process_parallel - INFO - Metrics: ssr=65.2231, randi=0.9671, nmi=0.8814, mae=0.1347, used_time=21.5832, combined_score=0.9671
+2026-01-20 11:26:49,342 - openevolve.database - INFO - MAP-Elites cell improved: {'score': 9, 'complexity': 9} (fitness: 0.937 -> 0.957)
+2026-01-20 11:26:49,345 - openevolve.process_parallel - INFO - Iteration 6: Program e0ed9448-0f81-4585-afc4-766f97c3504c (parent: f5ecbba0-8bc2-4ce5-80a8-d0706362d4b8) completed in 99.79s
+2026-01-20 11:26:49,347 - openevolve.process_parallel - INFO - Metrics: ssr=83.0147, randi=0.9571, nmi=0.8494, mae=0.1858, used_time=16.8131, combined_score=0.9571
+2026-01-20 11:27:15,108 - openevolve.process_parallel - INFO - Iteration 10: Program 453d5da5-6033-408f-b205-af8b144138b4 (parent: 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829) completed in 50.85s
+2026-01-20 11:27:15,108 - openevolve.process_parallel - INFO - Metrics: ssr=222.5469, randi=0.9080, nmi=0.7417, mae=0.3342, used_time=5.5265, combined_score=0.9080
+2026-01-20 11:27:15,108 - openevolve.process_parallel - INFO - Checkpoint interval reached at iteration 10
+2026-01-20 11:27:15,108 - openevolve.database - INFO - Island Status:
+2026-01-20 11:27:15,123 - openevolve.database - INFO -  * Island 0: 6 programs, best=0.9671, avg=0.7808, diversity=430.47, gen=2 (best: afbc6168-76b0-4ed7-bd0d-68647b3dd288)
+2026-01-20 11:27:15,123 - openevolve.database - INFO -    Island 1: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 11:27:15,123 - openevolve.database - INFO -    Island 2: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 11:27:15,123 - openevolve.database - INFO -    Island 3: 2 programs, best=0.9651, avg=0.9611, diversity=902.50, gen=1 (best: e0ed9448-0f81-4585-afc4-766f97c3504c)
+2026-01-20 11:27:15,123 - openevolve.database - INFO -    Island 4: 0 programs, best=0.0000, avg=0.0000, diversity=0.00, gen=1
+2026-01-20 11:27:15,166 - openevolve.database - INFO - Saved database with 8 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\checkpoints\checkpoint_10
+2026-01-20 11:27:15,174 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=65.2231, randi=0.9671, nmi=0.8814, mae=0.1347, used_time=21.5832, combined_score=0.9671
+2026-01-20 11:27:15,176 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\checkpoints\checkpoint_10
+2026-01-20 11:27:50,046 - openevolve.database - INFO - New MAP-Elites cell occupied: {'score': 5, 'complexity': 7}
+2026-01-20 11:27:50,046 - openevolve.process_parallel - INFO - Iteration 7: Program e01f7838-9f0d-4f25-a5c5-1e65d7c26663 (parent: 241beaa8-34c8-43f9-b7e9-3d7fbd3f5829) completed in 156.31s
+2026-01-20 11:27:50,046 - openevolve.process_parallel - INFO - Metrics: error=0.0000, timeout=1.0000
+2026-01-20 11:27:50,155 - openevolve.database - INFO - Saved database with 9 programs to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\checkpoints\checkpoint_10
+2026-01-20 11:27:50,155 - openevolve.controller - INFO - Saved best program at checkpoint 10 with metrics: ssr=65.2231, randi=0.9671, nmi=0.8814, mae=0.1347, used_time=21.5832, combined_score=0.9671
+2026-01-20 11:27:50,170 - openevolve.controller - INFO - Saved checkpoint at iteration 10 to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\checkpoints\checkpoint_10
+2026-01-20 11:27:51,670 - openevolve.process_parallel - INFO - Stopped process pool
+2026-01-20 11:27:51,670 - openevolve.controller - INFO - Using tracked best program: afbc6168-76b0-4ed7-bd0d-68647b3dd288
+2026-01-20 11:27:51,670 - openevolve.controller - INFO - Evolution complete. Best program has metrics: ssr=65.2231, randi=0.9671, nmi=0.8814, mae=0.1347, used_time=21.5832, combined_score=0.9671
+2026-01-20 11:27:51,670 - openevolve.controller - INFO - Saved best program to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\best\best_program.py with program info to ./outputs_georegime_2kmodels_01162026_dynamic_gpt/round_10\best\best_program_info.json

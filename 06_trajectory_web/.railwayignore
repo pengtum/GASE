@@ -1,0 +1,14 @@
+# Raw evolution outputs are not needed by the deployed server.
+# `python build_data.py` produces web/data.json which is the only artifact
+# the runtime serves. Excluding ~12MB of raw data keeps the deploy small.
+outputs_georegime_2kmodels_dynamic_gpt/
+build_data.py
+
+# Repo-only files
+README.md
+.gitignore
+.git/
+.claude/
+desktop.ini
+Thumbs.db
+.DS_Store
