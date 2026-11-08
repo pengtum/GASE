@@ -24,7 +24,11 @@ cd ../04_real_world_experiment
 python run_real_world_baselines.py        # 4 classical baselines × 11 datasets
 python run_real_world_evolved.py          # 6 K-Models variants × 11 datasets
 
-# 4. Generate all paper figures
+# 4. Reproduce the Appendix D control (matched budget + ablations)
+cd ../07_equal_budget_ablation
+python run_eval.py --workers 8            # 8 variants × 150 grids
+
+# 5. Generate all paper figures
 cd ../05_analysis_and_figures
 python generate_combined_bar_chart.py     # Figure 6 (main)
 python generate_baseline_map_matrix.py    # Figure 7 (regime maps)
@@ -43,7 +47,8 @@ python generate_evolved_map_matrix.py     # Figure S4 (evolved variants)
 | `03_simulation_experiment/` | §4.2 + §5.2 | 150 simulated grids (Rectangular / Voronoi / Arbitrary) and the runner scripts that produce Table 3 |
 | `04_real_world_experiment/` | §4.3 + §5.3 | 11 real-world datasets (ERA5 climate, 8 health datasets, CAMELS hydrology, US voting) and the runner scripts that produce Table 4 + Figure 6 + p-sensitivity (Figure S2) |
 | `05_analysis_and_figures/` | All figures + tables | Scripts that turn `results/*.csv` into every figure and LaTeX table in the paper |
-| `06_trajectory_web/` | §5.1 (referenced) | Interactive web page tracking the 10-round evolution of the algorithm, source for [https://web-production-8126.up.railway.app/](https://web-production-8126.up.railway.app/) |
+| `06_trajectory_web/` | §5.1 (referenced) | Interactive web page tracking the 10-round evolution of the algorithm, source for [https://peng-luo.com/sega/trace/](https://peng-luo.com/sega/trace/) |
+| `07_equal_budget_ablation/` | Appendix D | The matched-budget baseline (the unmodified seed given the same cluster-count search under the evolved algorithm's own time budget) and the one-component ablations that produce Table D.6 |
 
 ---
 
@@ -53,6 +58,7 @@ python generate_evolved_map_matrix.py     # Figure S4 (evolved variants)
 |---|---|
 | Table 3 (simulation, per-pattern) | `03_simulation_experiment/results/{baseline,evolved}_per_pattern.csv` |
 | Table 4 (real-world, cross-dataset means) | `04_real_world_experiment/results_*/algorithm_comparison.csv` → `05_analysis_and_figures/_paper_summary.py` |
+| Table D.6 (matched budget + ablations) | `07_equal_budget_ablation/results/summary_equal_compute_ablation.csv` |
 | Figure 4 (trajectory) | `02_case_study_algorithms/trajectory/best_program_r{0,1,...,10}.py` + `06_trajectory_web/` |
 | Figure 5 (simulation examples) | `03_simulation_experiment/run_simulation_evolved.py` (writes maps), `05_analysis_and_figures/generate_combined_bar_chart.py` |
 | Figure 6 (10-algorithm domain summary) | `05_analysis_and_figures/generate_combined_bar_chart.py` |
